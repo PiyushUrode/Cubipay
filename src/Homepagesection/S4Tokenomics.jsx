@@ -1,0 +1,67 @@
+import React from 'react';
+import Str1 from '../assets/Image/Strategic1.png';
+import Str2 from '../assets/Image/Strategic2.png';
+import Str3 from '../assets/Image/Strategic3.png';
+import Str4 from '../assets/Image/Strategic4.png';
+import Button from '../MainComponent/Button';
+import Token1 from '../assets/Image/Tokenimg.png';
+
+const S4Tokenomics = () => {
+  return (
+    <>
+      {/* Strategic Partners Section */}
+      <div className="flex flex-col items-center gap-5 px-4 sm:px-6 lg:px-8">
+        <h1 className="bg-text-custom-gradient bg-clip-text text-transparent font-semibold mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
+          Strategic Partners
+        </h1>
+        <div className="flex flex-wrap justify-center gap-5 sm:gap-8 mt-6">
+          <img src={Str1} alt="Strategic Partner 1" className="w-28 sm:w-36 md:w-44 lg:w-52" />
+          <img src={Str2} alt="Strategic Partner 2" className="w-28 sm:w-36 md:w-44 lg:w-52" />
+          <img src={Str3} alt="Strategic Partner 3" className="w-28 sm:w-36 md:w-44 lg:w-52" />
+          <img src={Str4} alt="Strategic Partner 4" className="w-28 sm:w-36 md:w-44 lg:w-52" />
+        </div>
+      </div>
+
+      {/* Tokenomics Section */}
+        
+      <div className="flex flex-col align-middle justify-center text-center mt-10 px-4 sm:px-6 lg:px-8 " id="token">
+        <div className="py-16 phone:py-8">
+          <h1 className="font-bold text-gray-300 uppercase leading-snug md:leading-tight text-xl sm:text-2xl md:text-3xl">
+            Tokenomics
+          </h1>
+          <h2 className=" bg-text-custom-gradient  bg-clip-text text-transparent font-semibold mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+            The Financial Framework of CUBIPAY
+          </h2>
+
+
+        </div>
+        <div className="flex justify-center align-middle px-5 mt-8">
+          <img src={Token1} alt="Tokenomics" className="w-full max-w-3xl" />
+        </div>
+
+        {/* Token Details */}
+        <div className="flex flex-1 flex-wrap justify-center  gap-4  mt-8 md:pt-20 " id='one'>
+          <div className=" flex flex-row   justify-center w-[33%]  phone:w-56    tablet:flex-1            " id='two'>
+            <Button  leftText="TOKEN NAME" rightText="SMART BC" />
+          </div>
+          <div className="w-[33%]  phone:w-56    tablet:flex-1 flex  justify-center   items-center align-middle        ">
+            <Button  leftText="SYMBOL" rightText="SBC" />
+          </div>
+          <div className="w-[33%]  phone:w-56    tablet:flex-1 flex  justify-center   items-center align-middle        ">
+            <Button  leftText="NETWORK" rightText="BEP-20" />
+          </div>
+          <div className="w-[33%]  phone:w-56    tablet:flex-1 flex  justify-center   items-center align-middle        ">
+            <Button  leftText="DECIMAL" rightText="18" />
+          </div>
+          <div className="w-[33%]  phone:w-56    tablet:flex-1 flex  justify-center    items-center align-middle       ">
+            <Button  leftText="TOTAL SUPPLY" rightText="10 CR" />
+          </div>
+        </div>
+      </div>
+      
+    </>
+  );
+};
+
+export default S4Tokenomics;
+

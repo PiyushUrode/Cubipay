@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #090909;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.header-background {
+  background-image: url('./assets/Image/homepagebg.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+ 
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+}
+.border-gradient-purple {
+  border-image-source: conic-gradient(from 90deg, #ED00FF 0%, #00E1FF 37%, #FEAB1D 57%, #ED00FF 100%);
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(150deg, #fff0 0%, #ffffffe5 52% ,  #fff0 98%);
+}
+
+
+/* contract */
+.border-gradient-two {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 10px;
+}
+.border-gradient-red {
+  border-image-source: linear-gradient(90deg, rgba(254, 171, 29, 0.5) 0%, rgba(237, 0, 255, 0.5) 50%, rgba(0, 225, 255, 0.5) 100%);
+}
+
+
+
