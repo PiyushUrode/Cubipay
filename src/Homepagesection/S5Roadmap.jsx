@@ -8,7 +8,7 @@ const S5Roadmap = () => {
   const handleMouseLeave = () => setIsScrolling(false);
   return (
     <>
-      <div className="Roadmap w-full py-10 flex justify-center items-center flex-col">
+      <div className="Roadmap w-full py-10 flex justify-center items-center flex-col bg-[#090909] ">
         <div className="Roadmap-heading text-center">
           <h1 className="font-bold  text-gray-300 uppercase leading-snug md:leading-tight text-xl sm:text-2xl md:text-3xl">
             Roadmap
@@ -19,7 +19,7 @@ const S5Roadmap = () => {
         </div>
 {/* card start */}
 
-<div className="w-full py-10 flex justify-center items-center">
+<div className="w-full py-10 flex justify-center items-center cursor-move">
       <div
         className={`flex overflow-x-auto py-10 px-4 md:px-10 w-full space-x-5 ${
           isScrolling ? "scrollbar-thin scrollbar-thumb-black scrollbar-track-white" : "scrollbar-hidden"

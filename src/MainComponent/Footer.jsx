@@ -1,28 +1,76 @@
 
 import { Link } from 'react-router-dom';
+import logo from "../assets/logo/logo1.png"
+import footericon1 from "../assets/Image/footericon1.png"
+import footericon2 from "../assets/Image/footericon2.png"
+import footericon3 from "../assets/Image/footericon3.png"
+import footericon4 from "../assets/Image/footericon4.png"
+import footericon5 from "../assets/Image/footericon5.png"
+
+import { IoIosArrowDropup } from 'react-icons/io';
 
 
 const Footer = () => {
+  
+    const scrollToTop = () => {
+        const duration = 1000; // Duration in milliseconds (1 second)
+        const start = window.scrollY; // Starting scroll position
+        const startTime = performance.now(); // Time when the scroll starts
+    
+        // Perform the scroll gradually
+        const animateScroll = (currentTime) => {
+          const timeElapsed = currentTime - startTime;
+          const progress = Math.min(timeElapsed / duration, 1); // Progress between 0 and 1
+    
+          // Scroll to the top with smooth easing
+          window.scrollTo(0, start - (start * progress));
+    
+          if (progress < 1) {
+            requestAnimationFrame(animateScroll); // Keep animating until 100% progress
+          }
+        };
+    
+        requestAnimationFrame(animateScroll); // Start the smooth scroll animation
+      };
+
+
     const currentYear = new Date().getFullYear();
 
     return (
         <>
             <footer className="bg-[#090909] z-10 rounded-t-3xl">
-                <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 z-10">
+                <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 z-10 gap-10 flex flex-col">
                     <div className="md:flex md:justify-between tablet:justify-center z-10">
-                        <div className="flex flex-col gap-5 mb-6 max-w-[35%] tablet:max-w-[100%] tablet:items-center md:mb-0">
+                        <div className="flex flex-col gap-5 mb-6 max-w-[35%] tablet:max-w-[100%] items-center tablet:items-center md:mb-0">
                             <a href="" className="flex items-center">
-                                <img src="/" className="h-[50px] me-3" alt="FlowBite Logo" />
+                                <img src={logo} className="h-[80px] me-3" alt="FlowBite Logo" />
                             </a>
-                            <p className="tablet:text-center text-white w-[60%]" >
+                            {/* <p className="tablet:text-center text-white w-[60%]" >
                             SMART BC Token (SBC) is a versatile BEP-20 token empowering staking, e-commerce, NFTs, and metaverse applications with future integration on its own Blitz Blockchain for scalability and transparency.
-                            </p>
-                            <div className="sm:flex sm:items-center tablet:text-center sm:justify-between">
-                        <span className="text-sm sm:text-center text-[#88FADE]">© {currentYear} Smart BC Concept. All Rights Reserved.</span>
-                    </div>
+                            </p> */}
+                                     <button
+//   onClick={openPDF}
+  className="relative px-10 py-5 text-white rounded-full bg-custom-gradient w-full    animate-rotate-gradient border-2 border-transparent"
+>
+  <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
+    <span className="absolute inset-0 bg-black rounded-full flex items-center justify-center">
+      Buy Now
+    </span>
+  </span>
+</button>
+
+<div className="footericon flex flex-row gap-10">
+  <img src={footericon1} alt="" className="hover:scale-110 transition-transform duration-300" />
+  <img src={footericon2} alt="" className="hover:scale-110 transition-transform duration-300" />
+  <img src={footericon3} alt="" className="hover:scale-110 transition-transform duration-300" />
+  <img src={footericon4} alt="" className="hover:scale-110 transition-transform duration-300" />
+  <img src={footericon5} alt="" className="hover:scale-110 transition-transform duration-300" />
+</div>
+
+                          
 
                         </div>
-                        <div className="mt-16 flex gap-[5vmax] tablet:justify-evenly tablet:flex-wrap z-10">
+                        <div className=" flex gap-[5vmax] tablet:justify-evenly tablet:flex-wrap z-10">
                             <div className="flex flex-col tablet:items-center">
                                 <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">Important Link</h2>
                                 <ul className="text-gray-400 font-medium">
@@ -31,14 +79,17 @@ const Footer = () => {
         <a href="#about">About Us</a>
     </li>
     <li className="tablet:text-center">
-        <a href="https://smartbcconceepts-organization.gitbook.io/smart-bc-token/">White Paper</a>
+        <a href="#roadmap">Usecase</a>
     </li>
+
+    <li className="tablet:text-center">
+        <a href="#roadmap">How To Buy</a>
+    </li>
+
     <li className="tablet:text-center">
         <a href="#roadmap">Roadmap</a>
     </li>
-    <li className="tablet:text-center">
-        <a href="#token">Tokenomics</a>
-    </li>
+
     
     
 </ul>
@@ -50,12 +101,12 @@ const Footer = () => {
                                 <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">About us</h2>
                                 <ul className="text-gray-400 font-medium flex flex-col gap-4">
 
-                                    <li className="tablet:text-center">
-  <a href="https://smartbcconcept.net/MemberPanel/Login.aspx" target="_blank" rel="noopener noreferrer">Sign In</a>
-</li>
-<li className="tablet:text-center">
-  <a href="https://smartbcconcept.net/" target="_blank" rel="noopener noreferrer">Sign Up</a>
-</li>
+                                <li className="tablet:text-center">
+        <a href="">White Paper</a>
+    </li>
+    <li className="tablet:text-center">
+        <a href="#token">Tokenomics</a>
+    </li>
                                 </ul>
                             </div>
 
@@ -71,38 +122,20 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div className="flex flex-col tablet:items-center">
-                                <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">Social Media</h2>
-                                <ul className="text-gray-400 font-medium gap-4 flex flex-col">
-  <li className=" flex items-center gap-2 tablet:text-center">
-    <img src="/" alt="Terms & Conditions" className="w-6 h-6" />
-    <span> Instagram </span>
-  </li>
-  <li className="flex items-center gap-2 tablet:text-center">
-    <img src="/" alt="Privacy Policy" className="w-6 h-6" />
-    <span>Facebook</span>
-  </li>
-  <li className="flex items-center gap-2 tablet:text-center">
-    <img src="/" alt="Privacy Policy" className="w-6 h-6" />
-    <span>Twitter</span>
-  </li>
 
-  <li className="flex items-center gap-2 tablet:text-center">
-    <img src="/" alt="Privacy Policy" className="w-6 h-6" />
-    <span>Telegram</span>
-  </li>
-
-
-
-
-
-</ul>
-
-                            </div>
                         </div>
                     </div>
-                   
+                    <div className="w-[100%] h-[3px] bg-roadmapline"></div>
+                    <div className="sm:flex sm:items-center tablet:text-center sm:justify-between">
+                        <span className="text-sm sm:text-center text-[#ffffff]">© {currentYear} CUBI PAY. All Rights Reserved.</span>
+                        <button onClick={scrollToTop}>
+      <IoIosArrowDropup className="w-10 h-10" />
+    </button>
+                    </div>
                 </div>
+
+                   
+                   
             </footer>
         </>
     )

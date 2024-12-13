@@ -59,7 +59,7 @@ const Navbar = () => {
               className="rbtn h-fit rounded-full"
             >
               <span className="text font-semibold rounded-full px-1 py-1 sm:py-3 sm:px-3 sm:text-sm text-white font-semibold rounded-xl bg-custom-gradient ">
-                Whitepaper
+              <a href="https://cubipay-token.gitbook.io/cubipay-token">White Paper</a>
               </span>
             </a>
           </div>
@@ -125,7 +125,7 @@ const Navbar = () => {
             <li className="md:border-none border-b-[1px] border-gradient">
               <a href="#token" onClick={closeMenu}>
                 <div className="font-normal block py-2 px-3  text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit">
-                  Tokenomics
+                  Usecase
                 </div>
               </a>
             </li>
@@ -139,10 +139,18 @@ const Navbar = () => {
               </a>
             </li>
 
+            <li className="md:border-none border-b-[1px] border-gradient">
+              <a href="#howtobuy" onClick={closeMenu}>
+                <div className="font-normal block py-2 px-3 text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit">
+                  Roadmap
+                </div>
+              </a>
+            </li>
+
 
             <li className="md:border-none  sm:hidden border-b-[1px] border-gradient">
               <a   target="blank"
-              href="/"
+              href="https://cubipay-token.gitbook.io/cubipay-token"
               rel="noopener noreferrer"
             onClick={closeMenu}>
                 <div className="font-normal block py-2 px-3 text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit">
@@ -161,7 +169,7 @@ const Navbar = () => {
                 // onClick={togglePopup}
                 className="font-normal block py-2 px-3 text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit cursor-pointer"
               >
-                How to Buy
+                Tokenomics
               </div>
             </li>
 

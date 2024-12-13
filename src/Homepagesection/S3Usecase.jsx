@@ -1,10 +1,17 @@
 import React from 'react'
 import "../index.css"
+import eco1 from "../assets/Image/eco1.png"
+import eco2 from "../assets/Image/eco2.png"
+import eco3 from "../assets/Image/eco3.png"
+import eco4 from "../assets/Image/eco4.png"
+import eco5 from "../assets/Image/eco5.png"
+import eco6 from "../assets/Image/eco6.png"
+import eco7 from "../assets/Image/eco7.png"
 
 const S3Usecase = () => {
   return (
     <>
-      <div className="flex flex-col align-middle justify-center text-center mt-10 px-4 sm:px-6 lg:px-8 " id="token">
+      <div className="flex flex-col align-middle justify-center text-center  px-4 sm:px-6 lg:px-8 bg-[#090909] " id="token">
         <div className="py-16 phone:py-8">
           <h1 className="font-bold text-gray-300 uppercase leading-snug md:leading-tight text-xl sm:text-2xl md:text-3xl">
             Use Cases
@@ -12,156 +19,94 @@ const S3Usecase = () => {
           <h2 className=" bg-text-custom-gradient  bg-clip-text text-transparent font-semibold mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
             ECO SYSTEM
           </h2>
-
-
         </div>
-<div className='flex flex-col gap-10'> 
-        {/* card1 */}
-        <div className="flex flex-col sm:flex-row gap-10 md:gap-16 lg:gap-20 px-5 sm:px-8 lg:px-36">
-  {/* Card 1 */}
-  <div className="flex flex-col items-center text-center justify-center w-full sm:w-1/2">
-    {/* Header */}
-    <div
-  className="relative bg-custom-gradient2 text-white flex items-center justify-center h-20 w-[50%]"
-  style={{
-    clipPath: 'polygon(15% 0%, 85% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%)',
-  }}
->
-  <h1 className="text-lg sm:text-2xl md:text-3xl font-semibold uppercase">Game Ecosystem</h1>
-</div>
-
-
-    {/* Content */}
-    <div className="mt-1 border-gradient border-gradient-purple p-5 rounded-lg">
-      <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed text-justify  max-w-[90%] mx-auto">
-        CUBIPAY streamlines in-game purchases, rewards systems, and peer-to-peer trading within gaming platforms, providing a secure and fast transaction layer for players and developers. CUBIPAY empowers users, shaping a decentralized future for businesses and individuals globally.
-      </p>
-    </div>
-  </div>
-
-  {/* Card 2 */}
-  <div className="flex flex-col items-center text-center justify-center w-full sm:w-1/2">
-    {/* Header */}
-    <div
-  className="relative bg-custom-gradient2 text-white flex items-center justify-center h-20 w-[50%]"
-  style={{
-    clipPath: 'polygon(15% 0%, 85% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%)',
-  }}
->
-  <h1 className="text-lg sm:text-2xl md:text-3xl font-semibold uppercase">Game Ecosystem</h1>
-</div>
-
-
-    {/* Content */}
-    <div className="mt-1 border-gradient border-gradient-purple p-5 rounded-lg">
-      <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed text-justify  max-w-[90%] mx-auto">
-        CUBIPAY streamlines in-game purchases, rewards systems, and peer-to-peer trading within gaming platforms, providing a secure and fast transaction layer for players and developers. CUBIPAY empowers users, shaping a decentralized future for businesses and individuals globally.
-      </p>
-    </div>
-  </div>
-
-  
-</div>
-
-{/* card2 section */}
-<div className="flex flex-col sm:flex-row gap-10 md:gap-16 lg:gap-20 px-5 sm:px-8 lg:px-36">
-  {/* Card 1 */}
-  <div className="flex flex-col items-center text-center justify-center w-full sm:w-1/2">
-    {/* Header */}
-    <div
-  className="relative bg-custom-gradient2 text-white flex items-center justify-center h-20 w-[50%]"
-  style={{
-    clipPath: 'polygon(15% 0%, 85% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%)',
-  }}
->
-  <h1 className="text-lg sm:text-2xl md:text-3xl font-semibold uppercase">Game Ecosystem</h1>
-</div>
-
-
-    {/* Content */}
-    <div className="mt-1 border-gradient border-gradient-purple p-5 rounded-lg">
-      <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed text-justify  max-w-[90%] mx-auto">
-        CUBIPAY streamlines in-game purchases, rewards systems, and peer-to-peer trading within gaming platforms, providing a secure and fast transaction layer for players and developers. CUBIPAY empowers users, shaping a decentralized future for businesses and individuals globally.
-      </p>
-    </div>
-  </div>
-
-  {/* Card 2 */}
-  <div className="flex flex-col items-center text-center justify-center w-full sm:w-1/2">
-    {/* Header */}
-    <div
-  className="relative bg-custom-gradient2 text-white flex items-center justify-center h-20 w-[50%]"
-  style={{
-    clipPath: 'polygon(15% 0%, 85% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%)',
-  }}
->
-  <h1 className="text-lg sm:text-2xl md:text-3xl font-semibold uppercase">Game Ecosystem</h1>
-</div>
-
-
-    {/* Content */}
-    <div className="mt-1 border-gradient border-gradient-purple p-5 rounded-lg">
-      <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed text-justify  max-w-[90%] mx-auto">
-        CUBIPAY streamlines in-game purchases, rewards systems, and peer-to-peer trading within gaming platforms, providing a secure and fast transaction layer for players and developers. CUBIPAY empowers users, shaping a decentralized future for businesses and individuals globally.
-      </p>
-    </div>
-  </div>
-
-  
-</div>
-
-{/* card3 section */}
-<div className="flex flex-col sm:flex-row gap-10 md:gap-16 lg:gap-20 px-5 sm:px-8 lg:px-36">
-  {/* Card 1 */}
-  <div className="flex flex-col items-center text-center justify-center w-full sm:w-1/2">
-    {/* Header */}
-    <div
-  className="relative bg-custom-gradient2 text-white flex items-center justify-center h-20 w-[50%]"
-  style={{
-    clipPath: 'polygon(15% 0%, 85% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%)',
-  }}
->
-  <h1 className="text-lg sm:text-2xl md:text-3xl font-semibold uppercase">Game Ecosystem</h1>
-</div>
-
-
-    {/* Content */}
-    <div className="mt-1 border-gradient border-gradient-purple p-5 rounded-lg">
-      <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed text-justify  max-w-[90%] mx-auto">
-        CUBIPAY streamlines in-game purchases, rewards systems, and peer-to-peer trading within gaming platforms, providing a secure and fast transaction layer for players and developers. CUBIPAY empowers users, shaping a decentralized future for businesses and individuals globally.
-      </p>
-    </div>
-  </div>
-
-  {/* Card 2 */}
-  <div className="flex flex-col items-center text-center justify-center w-full sm:w-1/2">
-    {/* Header */}
-    <div
-  className="relative bg-custom-gradient2 text-white flex items-center justify-center h-20 w-[50%]"
-  style={{
-    clipPath: 'polygon(15% 0%, 85% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%)',
-  }}
->
-  <h1 className="text-lg sm:text-2xl md:text-3xl font-semibold uppercase">Game Ecosystem</h1>
-</div>
-
-
-    {/* Content */}
-    <div className="mt-1 border-gradient border-gradient-purple p-5 rounded-lg">
-      <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed text-justify  max-w-[90%] mx-auto">
-        CUBIPAY streamlines in-game purchases, rewards systems, and peer-to-peer trading within gaming platforms, providing a secure and fast transaction layer for players and developers. CUBIPAY empowers users, shaping a decentralized future for businesses and individuals globally.
-      </p>
-    </div>
-  </div>
-
-  
-</div>
-</div>
-
-
-
-
       </div>
+
+      <div className="flex flex-col md:flex-row pt-10  gap-10 justify-around">
+
+        {/* eco 1 start */}
+ 
+ <div className="eco1 flex flex-col gap-10 ">
+
+  <div className='rounded-2xl bg-custom-gradient border-2 border-transparent'> 
+<div className="ecoa ecobgimg1 h-64 w-full flex items-end  rounded-2xl  justify-center bg-cover bg-center ">
+<h1 className="text-xl md:text-2xl lg:text-3xl text-white text-center p-10">NFT Marketplace</h1>
+</div>
+</div>
+
+
+
+
+
+
+<div className='rounded-2xl bg-custom-gradient border-2 border-transparent'> 
+<div className="ecoc ecobgimg3 h-64 w-full flex items-end justify-center bg-cover bg-center rounded-2xl">
+<h1 className="text-xl md:text-2xl lg:text-3xl text-white text-center p-10">Blockchain Deployment</h1>
+</div>
+</div>
+
+
+
+
+<div className='rounded-2xl bg-custom-gradient border-2 border-transparent'> 
+<div className="ecoc ecobgimg3 h-64 w-full flex items-end justify-center bg-cover bg-center rounded-2xl">
+<h1 className="text-xl md:text-2xl lg:text-3xl text-white text-center p-10">Blockchain Deployment</h1>
+</div>
+</div>
+
+
+
+</div>
+
+
+        {/* eco 2 start */}
+
+<div className="eco2 flex flex-col gap-10">
+<div className='rounded-2xl h-full w-full flex items-end justify-center bg-cover bg-center  bg-custom-gradient border-2 border-transparent'> 
+<div className="ecod ecobgimg4 h-full w-full flex items-end justify-center bg-cover bg-center">
+<h1 className="text-xl md:text-2xl lg:text-3xl text-white text-center p-10">Move to Earn (M2E)</h1>
+</div>
+</div>
+</div>
+
+
+        {/* eco 3 start */}
+
+<div className="eco3 flex flex-col gap-10 ">
+
+<div className='rounded-2xl bg-custom-gradient border-2 border-transparent'> 
+<div className="ecoa ecobgimg1 h-64 w-full flex items-end  rounded-2xl  justify-center bg-cover bg-center ">
+<h1 className="text-xl md:text-2xl lg:text-3xl text-white text-center p-10">NFT Marketplace</h1>
+</div>
+</div>
+
+<div className='rounded-2xl bg-custom-gradient border-2 border-transparent'> 
+<div className=" ecob ecobgimg2 h-64 w-full flex items-end justify-center bg-cover bg-center rounded-2xl">
+<h1 className="text-xl md:text-2xl lg:text-3xl text-white text-center p-10">Metaverse Integration</h1>
+</div>
+</div>
+
+
+<div className='rounded-2xl bg-custom-gradient border-2 border-transparent'> 
+<div className="ecoc ecobgimg3 h-64 w-full flex items-end justify-center bg-cover bg-center rounded-2xl">
+<h1 className="text-xl md:text-2xl lg:text-3xl text-white text-center p-10">Blockchain Deployment</h1>
+</div>
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
 
 
     </>)

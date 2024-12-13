@@ -15,7 +15,7 @@ const Homepage = () => {
 <Usecase/>
 <Howtobuy/>
 <Roadmap/>
-<Tokenomics/>
+<Tokenomics />
 <ContractAddress/>
 </div>
 

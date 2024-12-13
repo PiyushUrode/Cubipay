@@ -9,15 +9,15 @@ const S2About = () => {
   return (
     <>
 
-    <div className="min-h-[90vh] pt-5 md:pt-20 bg-[#090909] ">
+    <div className="min-h-[90vh] pt-5  md:pt-0 bg-[#090909]  ">
       <div
         id="Hero"
-        className="relative min-h-[90vh] w-full h-full flex flex-col md:flex-row items-center px-5 md:px-10 py-10"
+        className="relative min-h-[90vh] w-full h-full flex flex-col md:flex-row items-center px-5 md:px-10 "
       >
         <div id="abt4" className="w-full flex flex-col md:flex-row ">
           <div
             id="listing"
-            className="relative min-h-[30vh] px-5 md:px-10 py-10 flex flex-col md:flex-row gap-10 md:gap-20"
+            className="relative min-h-[30vh] px-5 md:px-10 py-10 md:py-0 flex flex-col md:flex-row gap-10 md:gap-20"
           >
             <div
               id="filler-main"
@@ -42,7 +42,7 @@ const S2About = () => {
 
               {/* Right Content */}
               <div
-                data-aos="zoom-in"
+
                 id="filler-left"
                 className="z-10 w-full md:w-[40%] flex justify-center md:justify-center"
               >

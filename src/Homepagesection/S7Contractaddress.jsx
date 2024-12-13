@@ -18,7 +18,7 @@ const S7Contractaddress = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center text-center gap-8 w-full px-5 py-20 bg-[#090909]  " id="contract">
+    <div className="flex flex-col items-center justify-center text-center gap-8 w-full px-5 py-20   relative " id="contract">
         <div className='  gap-5 flex flex-col p-10 bg-custom-gradientpresale  border-gradient-two border-gradient-red '>  
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-normal break-words leading-tight text-white">
         Contract <span className="text-gradient">Address</span>

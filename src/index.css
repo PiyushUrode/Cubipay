@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #090909;
+  background-color: #000000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,13 +17,132 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
 
 
 .header-background {
   background-image: url('./assets/Image/homepagebg.png'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 50px; */
  
 }
+
+
+.token-background1 {
+  background-image: url('./assets/Newfolder/token1.webp'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+
+.token-background2 {
+  background-image: url('./assets/Newfolder/token2.webp'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+/* ecobgimg7 */
+
+.ecobgimg1 {
+  background-image: url('./assets/Image/eco1.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.ecobgimg2 {
+  background-image: url('./assets/Image/eco2.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.ecobgimg3 {
+  background-image: url('./assets/Image/eco3.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+.ecobgimg4 {
+  background-image: url('./assets/Image/eco4.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+.ecobgimg5 {
+  background-image: url('./assets/Image/eco5.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+.ecobgimg6 {
+  background-image: url('./assets/Image/eco6.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+.ecobgimg7 {
+  background-image: url('./assets/Image/eco7.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
@@ -57,5 +176,28 @@
   border-image-source: linear-gradient(90deg, rgba(254, 171, 29, 0.5) 0%, rgba(237, 0, 255, 0.5) 50%, rgba(0, 225, 255, 0.5) 100%);
 }
 
+
+/* hero buynow button animation keyframe */
+
+@keyframes rotate-gradient {
+  0% {
+    background-position: 0% 20%;
+  }
+  25% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-rotate-gradient {
+  background: conic-gradient(from 90deg, #ED00FF 0%, #00E1FF 37%, #FEAB1D 57%, #ED00FF 100%);
+  background-size: 200% 200%;
+  animation: rotate-gradient 2s linear infinite;
+}
 
 

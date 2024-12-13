@@ -11,24 +11,21 @@ const Presale = lazy(() => import('./MainComponent/Presale'));
 
 const App = () => {
   return (
-<Router>
-  <Headroom>
-    <Navbar className="sticky top-0 z-50 " />
-  </Headroom>
-
-  <ScrollToTop />
-
-
-    <Suspense fallback={<Loader />}>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/presale" element={<Presale />} />
-      </Routes>
-    </Suspense>
- 
-  <Footer />
-</Router>
-
+    <Router>
+      <Headroom>
+        <Navbar className="sticky top-0 z-50" />
+      </Headroom>
+      <ScrollToTop />
+      <div className="content">
+        <Suspense fallback={<Loader />}>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/presale" element={<Presale />} />
+          </Routes>
+        </Suspense>
+      </div>
+      <Footer />
+    </Router>
   );
 };
 
