@@ -8,10 +8,10 @@ const S1Hero = () => {
 
   return (
     <> 
-    <div className=" min-h-[120vh] relative w-full header-background   ">
+    <div className=" min-h-fit sm:min-h-[120vh] relative w-full header-background pt-0 sm:pt-0  ">
       <div
         id="Hero"
-        className="relative min-h-[100vh]  w-full h-full flex flex-col md:flex-row items-center px-5 md:px-10 py-10"
+        className="relative min-h-[100vh]  w-full h-full flex flex-col md:flex-row items-center  sm:px-10 py-10"
       >
         <div id="abt4" className="w-full">
           <div
@@ -30,7 +30,7 @@ const S1Hero = () => {
               >
 
                 <h1
-                  className="text-3xl md:5xl  lg:text-6xl  bg-custom-gradient bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight"
+                  className="text-3xl md:5xl font-quantico  lg:text-6xl  bg-custom-gradient bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight"
                 >
                   Transforming Blockchain Utilities with CUBIPAY{" "}
 
@@ -39,18 +39,18 @@ const S1Hero = () => {
                 <p className="text-sm md:text-base md:w-3/4 items-center leading-relaxed text-gray-300">
                   CUBIPAY (CIP) empowers gaming, NFTs, metaverse, and blockchain with secure transactions, innovative features, and limitless possibilities.
                 </p>
-                <div className="flex flex-row gap-10 justify-center md:justify-start   ">
+                <div className="flex flex-row gap-5 md:gap-10 justify-center md:justify-start   ">
                 
                   <button
                     // onClick={openPDF}
-                    className=" px-5 py-3 bg-custom-gradient     text-white"
+                    className=" px-5 py-3 bg-custom-gradient font-quantico    text-white"
                   >
 Whitepaper
                   </button>
                   
                   <button
   onClick={openPDF}
-  className="relative px-20 py-5 text-white rounded-full bg-custom-gradient    animate-rotate-gradient border-2 border-transparent"
+  className="relative px-20 py-5 text-white font-quantico  rounded-full bg-custom-gradient    animate-rotate-gradient border-2 border-transparent"
 >
   <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
     <span className="absolute inset-0 bg-black rounded-full flex items-center justify-center">
@@ -70,7 +70,7 @@ Whitepaper
               <div
                 data-aos="zoom-in"
                 id="filler-left"
-                className="z-10 w-full md:w-[40%] flex justify-center md:justify-end"
+                className="-z-10 w-full md:w-[40%] flex justify-center md:justify-end"
               >
                 <img
                   loading="lazy"

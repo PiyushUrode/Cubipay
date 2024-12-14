@@ -39,9 +39,9 @@ const Footer = () => {
     return (
         <>
             <footer className="bg-[#090909] z-10 rounded-t-3xl">
-                <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 z-10 gap-10 flex flex-col">
-                    <div className="md:flex md:justify-between tablet:justify-center z-10">
-                        <div className="flex flex-col gap-5 mb-6 max-w-[35%] tablet:max-w-[100%] items-center tablet:items-center md:mb-0">
+                <div className="mx-auto w-full max-w-screen-xl  p-4 py-6 lg:py-8 z-10 gap-10 flex flex-col">
+                    <div className="md:flex md:justify-between  tablet:justify-center  z-10">
+                        <div className="flex flex-col gap-5 mb-6 max-w-[100%] sm:max-w-[35%] tablet:max-w-[100%] items-center tablet:items-center md:mb-0">
                             <a href="" className="flex items-center">
                                 <img src={logo} className="h-[80px] me-3" alt="FlowBite Logo" />
                             </a>
@@ -50,7 +50,7 @@ const Footer = () => {
                             </p> */}
                                      <button
 //   onClick={openPDF}
-  className="relative px-10 py-5 text-white rounded-full bg-custom-gradient w-full    animate-rotate-gradient border-2 border-transparent"
+  className="relative px-20 py-5 text-white rounded-full bg-custom-gradient w-fit     animate-rotate-gradient border-2 border-transparent"
 >
   <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
     <span className="absolute inset-0 bg-black rounded-full flex items-center justify-center">
@@ -70,7 +70,7 @@ const Footer = () => {
                           
 
                         </div>
-                        <div className=" flex gap-[5vmax] tablet:justify-evenly tablet:flex-wrap z-10">
+                        <div className=" flex gap-[5vmax] w-full justify-center sm:justify-start  md:justify-end tablet:flex-wrap z-10 ">
                             <div className="flex flex-col tablet:items-center">
                                 <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">Important Link</h2>
                                 <ul className="text-gray-400 font-medium">
@@ -126,7 +126,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="w-[100%] h-[3px] bg-roadmapline"></div>
-                    <div className="sm:flex sm:items-center tablet:text-center sm:justify-between">
+                    <div className="flex flex-row items-center tablet:text-center justify-between">
                         <span className="text-sm sm:text-center text-[#ffffff]">© {currentYear} CUBI PAY. All Rights Reserved.</span>
                         <button onClick={scrollToTop}>
       <IoIosArrowDropup className="w-10 h-10" />

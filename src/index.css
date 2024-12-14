@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #000000;
+  background-color: #090909;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +28,33 @@ html, body {
   flex-direction: column;
   min-height: 100vh;
 }
+
+
+@font-face {
+  font-family: 'Istok_Web';
+  src: url('../src/assets/font/Istok_Web/IstokWeb-Regular.ttf') format('truetype'),
+       url('../src/assets/font/Istok_Web/IstokWeb-Bold.ttf') format('truetype'),
+      }
+
+      @font-face {
+        font-family: 'Quantico';
+        src: url('../src/assets/font/Quantico/Quantico-Regular.ttf') format('truetype'),
+             url('../src/assets/font/Quantico/Quantico-Bold.ttf') format('truetype'),
+            }
+
+            h1 , h2 {
+              font-family: 'Quantico';
+        src: url('../src/assets/font/Quantico/Quantico-Regular.ttf') format('truetype'),
+             url('../src/assets/font/Quantico/Quantico-Bold.ttf') format('truetype'),            }
+
+             p {
+              font-family: 'Istok_Web', sans-serif;
+              color: #C7C7C7; /* Paragraph color */
+              line-height: 1.6; /* Adjust line-height as needed */
+              word-spacing: 0.1em; /* Adjust word-spacing as needed */
+            }
+    
+
 
 .content {
   flex: 1;
@@ -48,7 +75,7 @@ footer {
 
 
 .token-background1 {
-  background-image: url('./assets/Newfolder/token1.webp'); /* Webpack/Vite resolves this path automatically */
+  background-image: url('./assets/Image/Ellipse1.png'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -125,6 +152,15 @@ footer {
   background-position: center;
 
 }
+
+
+
+.scroll-container {
+  scroll-behavior: smooth; /* Smooth scrolling */
+  overflow-x: auto;
+  display: flex;
+}
+
 
 
 

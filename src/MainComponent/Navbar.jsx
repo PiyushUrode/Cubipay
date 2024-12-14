@@ -35,7 +35,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`w-full fixed bg-[rgba(10,10,10,0.2)] backdrop-filter overflow-x-hidden   top-0 border-b border-none dark:border-gray-600 `}>
+    <nav className={`w-full  bg-[rgb(10,10,10)] font-quantico overflow-x-hidden   top-0 border-b border-none dark:border-gray-600 `}>
       <div className="relative max-w-full flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
         {/* Logo */}
         <a href="#home" onClick={closeMenu}>
@@ -79,7 +79,7 @@ const Navbar = () => {
           <button
             onClick={toggleNav}
             type="button"
-            className="inline-flex items-center p-1 w-9 h-9 justify-center text-sm text-red-100 bg-gray-900 border border-[--primary-color] rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-[--prime-color] hover:bg-gray-900"
+            className="inline-flex items-center p-1 w-9 h-9  justify-center text-sm text-red-100 bg-gray-900 border border-[--primary-color] rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-[--prime-color] hover:bg-gray-900"
             aria-controls="navbar-sticky1"
             aria-expanded={isNavVisible}
           >

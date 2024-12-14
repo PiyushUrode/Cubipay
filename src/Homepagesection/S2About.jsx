@@ -9,10 +9,10 @@ const S2About = () => {
   return (
     <>
 
-    <div className="min-h-[90vh] pt-5  md:pt-0 bg-[#090909]  ">
+    <div className="min-h-[90vh] pt-3  md:pt-0 bg-[#090909]  ">
       <div
         id="Hero"
-        className="relative min-h-[90vh] w-full h-full flex flex-col md:flex-row items-center px-5 md:px-10 "
+        className="relative min-h-[80vh] w-full h-full flex flex-col md:flex-row items-center  px-3 md:px-10 "
       >
         <div id="abt4" className="w-full flex flex-col md:flex-row ">
           <div
@@ -29,10 +29,10 @@ const S2About = () => {
                 id="filler-right"
                 className="w-full md:w-[50%] flex flex-col justify-center gap-10 text-center md:text-left"
               >
-                <h1 className="text-2xl md:text-3xl font-semibold text-gray-200">
+                <h1 className="text-3xl md:text-3xl font-thin text-gray-200">
                   ABOUT
                 </h1>
-                <h2 className="text-3xl md:text-4xl lg:text-5xl bg-custom-gradient bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight">
+                <h2 className="text-4xl md:text-4xl  lg:text-5xl font-quantico bg-custom-gradient bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight">
                 Empowering a Decentralized Tomorrow with CUBIPAY
                 </h2>
                 <p className="text-md md:text-lg text-gray-300 leading-relaxed md:w-3/4 mx-auto md:mx-0">

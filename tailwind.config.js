@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        istok: ["'Istok_Web'", "sans-serif"], // Define Istok_Web for headings
+        quantico: ["'Quantico'", "sans-serif"], // Define Quantico for paragraphs
+      },
+
       screens: {
         zIndex: {
           '60': '60',

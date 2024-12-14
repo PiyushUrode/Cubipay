@@ -13,10 +13,10 @@ const App = () => {
   return (
     <Router>
       <Headroom>
-        <Navbar className="sticky top-0 z-50" />
+        <Navbar  />
       </Headroom>
       <ScrollToTop />
-      <div className="content">
+      <div className="content ">
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" element={<Homepage />} />
