@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -18,6 +19,7 @@ export default {
         },
         screens: {
           // Reuse Tailwind's default breakpoints
+          am: '400px',
           sm:  '550px',  
           md:  '768px' , 
           lg:  '1024px', 
@@ -44,6 +46,8 @@ export default {
         'roadmapline': ' linear-gradient(90deg, #fff0 0%, #ffffffe5 35% , #ffffffe5 65% ,  #fff0 98%)',
        
       },
+
+
       scrollbar: {
         width: {
           thin: '1px', // Adjust width as needed background: linear-gradient(0deg, #D9D9D9, #D9D9D9),
@@ -62,6 +66,7 @@ export default {
         'custom-drop': '0px 5px 20px #ed00ffab ', // Drop shadow
         'custom-inner': 'inset 0px 4px 30px #000000', // Inner shadow
         'custom-purple': '0px 0px 25px 23px rgba(97, 46, 165, 0.87)',
+        'custom-token': "0px 0px 20px 11px rgba(151, 71, 255, 0.73)",
       },
 
 

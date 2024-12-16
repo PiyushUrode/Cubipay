@@ -19,7 +19,7 @@ const Button = ({ leftText, rightText }) => {
         </div>
       </button> */}
             <button className="relative  flex shadow-custom-drop  font-semibold   rounded-full  phone:px-1 phone:py-1  text-base cursor-pointer 
-           text-black w-[170px] sm:w-[300px] h-[60px] transition-all duration-300 ease-in-out       ]  ">
+           text-black w-[200px] min-w-[200px] max-w-[300px]  sm:w-[300px] h-[60px] transition-all duration-300 ease-in-out       ]  ">
 
                 {/* Left side with gradient */}
                 <div className="w-1/2 h-full   flex items-center justify-center rounded-l-full">

@@ -42,9 +42,11 @@ const Footer = () => {
                 <div className="mx-auto w-full max-w-screen-xl  p-4 py-6 lg:py-8 z-10 gap-10 flex flex-col">
                     <div className="md:flex md:justify-between  tablet:justify-center  z-10">
                         <div className="flex flex-col gap-5 mb-6 max-w-[100%] sm:max-w-[35%] tablet:max-w-[100%] items-center tablet:items-center md:mb-0">
-                            <a href="" className="flex items-center">
+                            
+                                 <Link className="flex items-center" smooth to="/" > 
                                 <img src={logo} className="h-[80px] me-3" alt="FlowBite Logo" />
-                            </a>
+                           
+                            </Link>
                             {/* <p className="tablet:text-center text-white w-[60%]" >
                             SMART BC Token (SBC) is a versatile BEP-20 token empowering staking, e-commerce, NFTs, and metaverse applications with future integration on its own Blitz Blockchain for scalability and transparency.
                             </p> */}
@@ -52,11 +54,13 @@ const Footer = () => {
 //   onClick={openPDF}
   className="relative px-20 py-5 text-white rounded-full bg-custom-gradient w-fit     animate-rotate-gradient border-2 border-transparent"
 >
+       <Link smooth to="/presale" > 
   <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
     <span className="absolute inset-0 bg-black rounded-full flex items-center justify-center">
       Buy Now
     </span>
   </span>
+  </Link>
 </button>
 
 <div className="footericon flex flex-row gap-10">
@@ -102,9 +106,9 @@ const Footer = () => {
                                 <ul className="text-gray-400 font-medium flex flex-col gap-4">
 
                                 <li className="tablet:text-center">
-        <a href="">White Paper</a>
+        <a  href="https://cubipay-token.gitbook.io/cubipay-token">White Paper</a>
     </li>
-    <li className="tablet:text-center">
+    <li className=" tablet:text-center">
         <a href="#token">Tokenomics</a>
     </li>
                                 </ul>
@@ -113,10 +117,11 @@ const Footer = () => {
                             <div className="flex flex-col tablet:items-center">
                                 <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">Privacy</h2>
                                 <ul className="text-gray-400 font-medium">
-                                    <li className="mb-4 tablet:text-center">Terms & condition</li>
+                                    <li className="mb-4 tablet:text-center">
+                                    <a href="/home" target="_blank" rel="noopener noreferrer">Terms & Condition</a></li>
                                     {/* <li >Privacy Policy</li> */}
                                     <li className="tablet:text-center">
-  <a href="/privacypolicy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+  <a href="/home" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
 </li>
 
                                 </ul>

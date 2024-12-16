@@ -1,4 +1,6 @@
+import { HashLink as Link } from 'react-router-hash-link';
 import { useEffect, useState } from 'react';
+
 import logo from "../assets/logo/logo1.png";
 // import Popup from './Popupbuydog';
 
@@ -65,15 +67,13 @@ const Navbar = () => {
           </div>
 
           <div className="flex gap-3 sm:gap-1 items-center">
-            <a
-
-              className="rbtn h-fit rounded-full"
-              // onClick={togglePopup}
-            >
+          <Link smooth to="/presale" onClick={closeMenu}>
+           
+            
               <span className="text font-semibold    rounded-full px-1 py-1 sm:py-3 sm:px-3 sm:text-sm text-white font-semibold  rounded-xl bg-custom-gradient ">
                 BUY Now
               </span>
-            </a>
+            </Link>
           </div>
 
           <button
@@ -108,43 +108,44 @@ const Navbar = () => {
         >
           <ul className="navcar flex flex-col p-4 md:py-1.5 mt-4 font-medium border border-[--primary-color] md:rounded-[50px] rounded-lg md:space-x-[3vmax] md:flex-row md:mt-0 md:border-0 text-white font-semibold tablet:bg-gray-900">
             <li className="md:border-none border-b-[1px] border-gradient">
-              <a href="#home" onClick={closeMenu}>
+            <Link smooth to="/#home" onClick={closeMenu}>
                 <div className="font-normal block py-2 px-3 text-white font-semibold  rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit">
                   Home
                 </div>
-              </a>
+              </Link>
             </li>
             <li className="md:border-none border-b-[1px] border-gradient">
-              <a href="#about" onClick={closeMenu}>
+            <Link smooth to="/#about" onClick={closeMenu}>
                 <div className="font-normal block py-2 px-3 text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit">
                   About
                 </div>
-              </a>
+              </Link>
             </li>
 
             <li className="md:border-none border-b-[1px] border-gradient">
-              <a href="#token" onClick={closeMenu}>
+            <Link smooth to="/#usecase" onClick={closeMenu}>
                 <div className="font-normal block py-2 px-3  text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit">
                   Usecase
                 </div>
-              </a>
+              </Link>
             </li>
 
 
-            <li className="md:border-none border-b-[1px] border-gradient">
-              <a href="#howtobuy" onClick={closeMenu}>
+            <li className="md:border-none border-b-[1px] border-gradient"> 
+            <Link smooth to="/#howtobuy" onClick={closeMenu}>
+       
                 <div className="font-normal block py-2 px-3 text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit">
                   How to Buy
                 </div>
-              </a>
+              </Link>
             </li>
 
             <li className="md:border-none border-b-[1px] border-gradient">
-              <a href="#howtobuy" onClick={closeMenu}>
+            <Link smooth to="/#roadmap" onClick={closeMenu}>
                 <div className="font-normal block py-2 px-3 text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit">
                   Roadmap
                 </div>
-              </a>
+              </Link>
             </li>
 
 
@@ -165,12 +166,14 @@ const Navbar = () => {
             
             {/* Popup Trigger */}
             <li className="md:border-none border-b-[1px] border-gradient ">
+            <Link smooth to="/#token" onClick={closeMenu}>
               <div
                 // onClick={togglePopup}
                 className="font-normal block py-2 px-3 text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit cursor-pointer"
               >
                 Tokenomics
               </div>
+              </Link>
             </li>
 
 

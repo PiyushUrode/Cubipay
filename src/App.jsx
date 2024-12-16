@@ -1,15 +1,24 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, lazy , useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Headroom from 'react-headroom';
 import Navbar from "./MainComponent/Navbar";
 import Footer from "./MainComponent/Footer";
 import ScrollToTop from './MainComponent/ScrollToTop';
 import Loader from './MainComponent/Loader';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
 
 const Homepage = lazy(() => import('./MainComponent/Homepage'));
 const Presale = lazy(() => import('./MainComponent/Presale'));
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+      easing: 'ease-in', // Easing function
+      once: true, // Run animation only once
+    });
+  }, []);
   return (
     <Router>
       <Headroom>
