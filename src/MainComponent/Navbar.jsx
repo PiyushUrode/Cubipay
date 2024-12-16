@@ -75,7 +75,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="rbtn h-fit rounded-full  "
             >
-              <span className=" font-bold font-serif rounded-full px-2 py-2 sm:py-3 sm:px-3 sm:text-sm text-white  rounded-xl bg-custom-gradient ">
+              <span className=" font-istok font-bold   px-2 py-2 sm:py-3 sm:px-3 sm:text-sm text-white  rounded-xl bg-custom-gradient ">
               <a href="https://cubipay-token.gitbook.io/cubipay-token" >  White Paper   </a>
               </span>
             </a>
@@ -85,7 +85,7 @@ const Navbar = () => {
           <Link smooth to="/presale" onClick={closeMenu}>
            
             
-              <span className=" font-bold font-serif   rounded-full px-2 py-2 sm:py-3 sm:px-3 sm:text-sm text-white    rounded-xl bg-custom-gradient  ">
+              <span className="  font-istok font-bold   px-2 py-2 sm:py-3 sm:px-3 sm:text-sm text-white    rounded-xl bg-custom-gradient  ">
                 BUY Now
               </span>
             </Link>

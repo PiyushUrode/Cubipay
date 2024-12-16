@@ -43,9 +43,17 @@ body {
 
 @font-face {
   font-family: 'Istok_Web';
-  src: url('../src/assets/font/Istok_Web/IstokWeb-Regular.ttf') format('truetype'),
-       url('../src/assets/font/Istok_Web/IstokWeb-Bold.ttf') format('truetype'),
-      }
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+  src: url('../src/assets/font/Istok_Web/IstokWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Istok_Web';
+  font-weight: 800; /* Bold weight */
+  font-style: normal;
+  src: url('../src/assets/font/Istok_Web/IstokWeb-Bold.ttf') format('truetype');
+}
 
       @font-face {
         font-family: 'Quantico';

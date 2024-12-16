@@ -104,7 +104,7 @@ const S5Roadmap = () => {
               data-aos="fade-up" // AOS animation trigger for fade-up effect
               data-aos-delay={index * 100} // Stagger delay for each card
               data-aos-duration="1000" // Duration of animation
-              className="card relative w-fit sm:w-full rounded-2xl border md:py-12 md:px-6 w-[450px] flex-shrink-0 bg-gradient-to-br from-[#1f1f1f] to-[#1f1f1f] shadow-lg border-gradient border-gradient-green"
+              className="card relative   rounded-2xl border md:py-12 md:px-6 w-fit sm:w-[450px] flex-shrink-0 bg-gradient-to-br from-[#1f1f1f] to-[#1f1f1f] shadow-lg border-gradient border-gradient-green"
             >
               <div className="items-center  space-y-3 w-full flex flex-col justify-center text-center">
                 {/* Phase Title with Icon */}
