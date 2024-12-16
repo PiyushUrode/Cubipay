@@ -54,7 +54,7 @@ const Navbar = () => {
 
         {/* Right Section */}
         <div className="flex md:order-2 gap-5 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <div className="flex gap-3 sm:gap-1 hidden sm:block items-center  ">
+          {/* <div className="flex gap-3 sm:gap-1 hidden sm:block items-center  ">
             <a
               target="blank"
               href="https://cubipay-token.gitbook.io/cubipay-token"
@@ -65,17 +65,33 @@ const Navbar = () => {
               <a href="https://cubipay-token.gitbook.io/cubipay-token" >  White Paper   </a>
               </span>
             </a>
+          </div> */}
+
+
+<div className="flex gap-3 sm:gap-1 items-center hidden md:block">
+          <a
+              target="blank"
+              href="https://cubipay-token.gitbook.io/cubipay-token"
+              rel="noopener noreferrer"
+              className="rbtn h-fit rounded-full  "
+            >
+              <span className=" font-bold font-serif rounded-full px-2 py-2 sm:py-3 sm:px-3 sm:text-sm text-white  rounded-xl bg-custom-gradient ">
+              <a href="https://cubipay-token.gitbook.io/cubipay-token" >  White Paper   </a>
+              </span>
+            </a>
           </div>
 
-          <div className="flex gap-3 sm:gap-1 items-center">
+          <div className="flex gap-3 sm:gap-1   items-center">
           <Link smooth to="/presale" onClick={closeMenu}>
            
             
-              <span className=" font-bold font-serif   rounded-full px-1 py-1 sm:py-3 sm:px-3 sm:text-sm text-white    rounded-xl bg-custom-gradient  ">
+              <span className=" font-bold font-serif   rounded-full px-2 py-2 sm:py-3 sm:px-3 sm:text-sm text-white    rounded-xl bg-custom-gradient  ">
                 BUY Now
               </span>
             </Link>
           </div>
+
+
 
           <button
             onClick={toggleNav}
@@ -105,7 +121,7 @@ const Navbar = () => {
         {/* Navbar Items */}
         <div
           id="navbar-sticky1"
-          className={`items-center justify-between w-[99%] md:flex md:w-auto md:order-1 ${isNavVisible ? 'block' : 'hidden'}`}
+          className={`items-center justify-center w-[99%] md:flex md:w-fit md:order-1 ${isNavVisible ? 'block' : 'hidden'}`}
         >
           <ul className="navcar flex flex-col p-4 md:py-1.5 mt-4 font-medium border border-[--primary-color] md:rounded-[50px] rounded-lg md:space-x-[3vmax] md:flex-row md:mt-0 md:border-0 text-white font-semibold tablet:bg-gray-900">
             <li className="md:border-none border-b-[1px] border-gradient">
@@ -150,7 +166,7 @@ const Navbar = () => {
             </li>
 
 
-            <li className="md:border-none  sm:hidden border-b-[1px] border-gradient">
+            <li className="md:border-none  md:hidden border-b-[1px] border-gradient">
               <a   target="blank"
               href="https://cubipay-token.gitbook.io/cubipay-token"
               rel="noopener noreferrer"

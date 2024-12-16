@@ -80,7 +80,7 @@ const S5Roadmap = () => {
   }, []); // Empty dependency array ensures it runs only once on mount
 
   return (
-    <div className="Roadmap w-full pt-10 sm:pt-16 flex justify-center items-center flex-col bg-[#090909]" id="roadmap">
+    <div className="Roadmap w-full   h-full pt-10 sm:pt-16 flex justify-center items-center flex-col bg-[#090909]" id="roadmap">
       <div className="Roadmap-heading text-center">
         <h1 className="font-bold text-gray-300 uppercase leading-snug md:leading-tight text-3xl sm:text-3xl md:text-3xl">
           Roadmap
@@ -91,7 +91,7 @@ const S5Roadmap = () => {
       </div>
 
       {/* Card Container */}
-      <div className="w-full pt-10 flex justify-center items-center" id="roadmapcard">
+      <div className="w-full  pt-10 flex justify-center items-center" id="roadmapcard">
         <div
           className={`scroll-container sm:gap-10 flex overflow-x-auto sm:py-12 px-4 md:px-10 w-full space-x-5 ${isScrolling ? "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-[#b7e903] scrollbar-track-white" : "scrollbar-hidden"}`}
           onMouseEnter={handleMouseEnter}
@@ -104,11 +104,11 @@ const S5Roadmap = () => {
               data-aos="fade-up" // AOS animation trigger for fade-up effect
               data-aos-delay={index * 100} // Stagger delay for each card
               data-aos-duration="1000" // Duration of animation
-              className="card relative rounded-2xl border md:py-12 md:px-6 w-[450px] flex-shrink-0 bg-gradient-to-br from-[#1f1f1f] to-[#1f1f1f] shadow-lg border-gradient border-gradient-green"
+              className="card relative w-fit sm:w-full rounded-2xl border md:py-12 md:px-6 w-[450px] flex-shrink-0 bg-gradient-to-br from-[#1f1f1f] to-[#1f1f1f] shadow-lg border-gradient border-gradient-green"
             >
-              <div className="items-center space-y-3 flex flex-col justify-center text-center">
+              <div className="items-center  space-y-3 w-full flex flex-col justify-center text-center">
                 {/* Phase Title with Icon */}
-                <div className="flex items-center justify-between px-3 w-full space-x-3">
+                <div className="flex items-center justify-around lg:justify-between px-3 w-full space-x-3">
                    {/* Display the phase-specific icon */}
                   <h1 className="text-xl md:text-3xl lg:text-4xl bg-custom-gradient bg-clip-text text-transparent font-medium uppercase leading-snug md:leading-tight">
                     {phase.title}

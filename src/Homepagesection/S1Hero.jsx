@@ -77,7 +77,7 @@ const S1Hero = () => {
                   <button
                     data-aos="zoom-in"
                     data-aos-delay="600"
-                    className="relative px-20 py-5 text-white  font-quantico rounded-full bg-custom-gradient animate-rotate-gradient border-2 border-transparent"
+                    className="relative px-20 py-5 text-white  font-quantico rounded-full bg-custom-gradient   animate-rotate-gradient border-2 border-transparent"
                     onClick={() => navigate("/presale")}
                   >
                     <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
