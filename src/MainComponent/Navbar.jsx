@@ -37,10 +37,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`w-full  bg-[rgb(10,10,10)] font-quantico overflow-x-hidden   top-0 border-b border-none dark:border-gray-600 `}>
+    <nav className={`w-full  bg-[rgb(10,10,10)] font-quantico overflow-x-hidden z-0    top-0 border-b border-none dark:border-gray-600 `}>
       <div className="relative max-w-full flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
         {/* Logo */}
-        <a href="#home" onClick={closeMenu}>
+        <Link smooth to="/" onClick={closeMenu}>
+     
           <div className="flex items-center space-x-3 rtl:space-x-reverse">
             <img
               loading="lazy"
@@ -49,19 +50,19 @@ const Navbar = () => {
               alt="doogscoin"
             />
           </div>
-        </a>
+        </Link>
 
         {/* Right Section */}
         <div className="flex md:order-2 gap-5 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <div className="flex gap-3 sm:gap-1 hidden sm:block items-center ">
+          <div className="flex gap-3 sm:gap-1 hidden sm:block items-center  ">
             <a
               target="blank"
-              href="/"
+              href="https://cubipay-token.gitbook.io/cubipay-token"
               rel="noopener noreferrer"
-              className="rbtn h-fit rounded-full"
+              className="rbtn h-fit rounded-full  "
             >
-              <span className="text font-semibold rounded-full px-1 py-1 sm:py-3 sm:px-3 sm:text-sm text-white font-semibold rounded-xl bg-custom-gradient ">
-              <a href="https://cubipay-token.gitbook.io/cubipay-token">White Paper</a>
+              <span className=" font-bold font-serif rounded-full px-1 py-1 sm:py-3 sm:px-3 sm:text-sm text-white  rounded-xl bg-custom-gradient ">
+              <a href="https://cubipay-token.gitbook.io/cubipay-token" >  White Paper   </a>
               </span>
             </a>
           </div>
@@ -70,7 +71,7 @@ const Navbar = () => {
           <Link smooth to="/presale" onClick={closeMenu}>
            
             
-              <span className="text font-semibold    rounded-full px-1 py-1 sm:py-3 sm:px-3 sm:text-sm text-white font-semibold  rounded-xl bg-custom-gradient ">
+              <span className=" font-bold font-serif   rounded-full px-1 py-1 sm:py-3 sm:px-3 sm:text-sm text-white    rounded-xl bg-custom-gradient  ">
                 BUY Now
               </span>
             </Link>

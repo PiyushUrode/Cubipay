@@ -111,7 +111,7 @@ const S6Howtobuy = () => {
             >
               <div className="flex flex-col items-start rounded-3xl px-6 py-6 bg-black w-full h-full">
                 <div className="flex flex-row items-center justify-between space-x-4 w-full mb-4">
-                  <button className="px-5 py-3 bg-custom-gradient text-white text-sm sm:text-base">
+                  <button className="px-5 py-3 bg-custom-gradient text-white font-bold text-sm sm:text-base">
                     Step 4
                   </button>
                   <img

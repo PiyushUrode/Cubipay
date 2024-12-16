@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = ({ leftText, rightText }) => {
     return (
-        <div className='flex flex-row align-middle w-full px-5 py-5 justify-center '>
+        <div className='flex flex-row align-middle w-full  py-5 justify-center '>
             {/* <button className="relative px-5 py-2 phone:px-1 phone:py-1 border-2 border-[#00ffbf92] text-base cursor-pointer bg-black/30 overflow-hidden shadow-[inset_0_0_15px_7px_rgba(0,255,192,0.5)]
  
         [clip-path:polygon(92%_0%,100%_33%,100%_100%,6%_100%,0%_75%,0%_0%)] flex justify-between items-center text-white w-[300px] h-[60px] transition-all duration-300 ease-in-out hover:shadow-[0_0_15px_rgba(0,255,192,0.5),inset_0_0_15px_15px_rgba(0,255,192,0.5)]">
@@ -19,15 +19,15 @@ const Button = ({ leftText, rightText }) => {
         </div>
       </button> */}
             <button className="relative  flex shadow-custom-drop  font-semibold   rounded-full  phone:px-1 phone:py-1  text-base cursor-pointer 
-           text-black w-[200px] min-w-[200px] max-w-[300px]  sm:w-[300px] h-[60px] transition-all duration-300 ease-in-out       ]  ">
+           text-black  w-1/2  sm:w-full  h-[60px] transition-all duration-300 ease-in-out       ]  ">
 
                 {/* Left side with gradient */}
-                <div className="w-1/2 h-full   flex items-center justify-center rounded-l-full">
+                <div className="w-full h-full   flex items-center justify-center rounded-l-full">
                     <span className="text-white z-10 ">{leftText}</span>
                 </div>
 
                 {/* Right side with dark background */}
-                <div className="w-1/2 h-full bg-black flex items-center justify-center rounded-r-full">
+                <div className="w-full h-full bg-black flex items-center justify-center rounded-r-full">
                     <span className="text-white z-10">{rightText}</span>
                 </div>
 

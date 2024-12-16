@@ -83,11 +83,11 @@ const Footer = () => {
         <a href="#about">About Us</a>
     </li>
     <li className="tablet:text-center">
-        <a href="#roadmap">Usecase</a>
+        <a href="#usecase">Usecase</a>
     </li>
 
     <li className="tablet:text-center">
-        <a href="#roadmap">How To Buy</a>
+        <a href="#howtobuy">How To Buy</a>
     </li>
 
     <li className="tablet:text-center">
@@ -121,7 +121,7 @@ const Footer = () => {
                                     <a href="/home" target="_blank" rel="noopener noreferrer">Terms & Condition</a></li>
                                     {/* <li >Privacy Policy</li> */}
                                     <li className="tablet:text-center">
-  <a href="/home" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+  <a href="/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
 </li>
 
                                 </ul>

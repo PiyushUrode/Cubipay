@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Import AOS styles
-import { FaRegCalendarAlt, FaRocket, FaCogs, FaLayerGroup, FaGlobeAmericas } from 'react-icons/fa'; // Import multiple icons
-
+import {  FaRocket, FaCogs, FaLayerGroup, FaGlobeAmericas } from 'react-icons/fa'; // Import multiple icons
+import { FaCode } from "react-icons/fa";
+import { MdEco } from "react-icons/md";
+import { LiaNetworkWiredSolid } from "react-icons/lia";
 const S5Roadmap = () => {
   const [isScrolling, setIsScrolling] = useState(false);
 
@@ -14,7 +16,7 @@ const S5Roadmap = () => {
     {
       title: "Phase 01",
       subtitle: "Foundation and Development",
-      icon: <FaRegCalendarAlt className="text-2xl text-white" />, // Icon for Phase 1
+      icon: <FaRocket className="text-2xl w-7 h-7  text-white" />, // Icon for Phase 1
       content: [
         "Conceptualization and whitepaper creation.",
         "Smart contract development and deployment on BEP-20.",
@@ -25,7 +27,7 @@ const S5Roadmap = () => {
     {
       title: "Phase 02",
       subtitle: "Initial Launch & Expansion",
-      icon: <FaRocket className="text-2xl text-white" />, // Icon for Phase 2
+      icon: <FaCode  className="text-2xl text-white  w-10 h-7 " />, // Icon for Phase 2
       content: [
         "Token launch on decentralized exchanges (DEXs).",
         "Beta testing of the online gaming platform.",
@@ -36,7 +38,7 @@ const S5Roadmap = () => {
     {
       title: "Phase 03",
       subtitle: "Growth & Adoption",
-      icon: <FaCogs className="text-2xl text-white" />, // Icon for Phase 3
+      icon: <LiaNetworkWiredSolid className="text-2xl w-10 h-10  text-white" />, // Icon for Phase 3
       content: [
         "Listing on centralized exchanges (CEXs).",
         "Launch of Move to Earn (M2E) platform.",
@@ -47,7 +49,7 @@ const S5Roadmap = () => {
     {
       title: "Phase 04",
       subtitle: "Advanced Ecosystem Deployment",
-      icon: <FaLayerGroup className="text-2xl text-white" />, // Icon for Phase 4
+      icon: <MdEco className="text-2xl w-10 h-10  text-white" />, // Icon for Phase 4
       content: [
         "Full launch of NFT marketplace.",
         "Integration of AI-driven solutions.",
@@ -58,7 +60,7 @@ const S5Roadmap = () => {
     {
       title: "Phase 05",
       subtitle: "Global Expansion & Governance",
-      icon: <FaGlobeAmericas className="text-2xl text-white" />, // Icon for Phase 5
+      icon: <FaGlobeAmericas className="text-2xl  w-7 h-7  text-white" />, // Icon for Phase 5
       content: [
         "Blockchain deployment for targeted real-world use cases.",
         "Expansion of strategic partnerships across industries.",
@@ -91,7 +93,7 @@ const S5Roadmap = () => {
       {/* Card Container */}
       <div className="w-full pt-10 flex justify-center items-center" id="roadmapcard">
         <div
-          className={`scroll-container sm:gap-10 flex overflow-x-auto sm:py-12 px-4 md:px-10 w-full space-x-5 ${isScrolling ? "scrollbar-none scrollbar-track-transparent scrollbar-thumb-black scrollbar-track-white" : "scrollbar-hidden"}`}
+          className={`scroll-container sm:gap-10 flex overflow-x-auto sm:py-12 px-4 md:px-10 w-full space-x-5 ${isScrolling ? "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-[#b7e903] scrollbar-track-white" : "scrollbar-hidden"}`}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
@@ -106,11 +108,12 @@ const S5Roadmap = () => {
             >
               <div className="items-center space-y-3 flex flex-col justify-center text-center">
                 {/* Phase Title with Icon */}
-                <div className="flex items-center justify-center space-x-3">
-                  {phase.icon} {/* Display the phase-specific icon */}
+                <div className="flex items-center justify-between px-3 w-full space-x-3">
+                   {/* Display the phase-specific icon */}
                   <h1 className="text-xl md:text-3xl lg:text-4xl bg-custom-gradient bg-clip-text text-transparent font-medium uppercase leading-snug md:leading-tight">
                     {phase.title}
                   </h1>
+                  {phase.icon}
                 </div>
                 <h2 className="text-white text-xl md:text-2xl lg:text-3xl uppercase leading-snug md:leading-tight">
                   {phase.subtitle}

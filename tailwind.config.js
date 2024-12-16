@@ -33,7 +33,7 @@ export default {
         'custom-gradient1': 'linear-gradient(133deg, rgba(237,0,255,1) 0%, rgba(0,225,255,1) 37%, rgba(254,171,29,1) 57%, rgba(237,0,255,1) 100%)',   },
       backgroundImage: {
         'text-custom-gradient': ' linear-gradient(130deg, rgba(254,171,29,1) 0%, rgba(237,0,255,1) 48%, rgba(0,225,255,1) 100%);',
-        'custom-gradient': 'conic-gradient(from 90deg, #ED00FF 0%, #00E1FF 37%, #FEAB1D 57%, #ED00FF 100%)',
+        'custom-gradient': 'conic-gradient(from 90deg, #ED00FF 0%, #00E1FF 37%, #FEAB1D 57%, #ED00FF 100%) ',
  
 
         'custom-gradient2': 'linear-gradient(90deg, #FEAB1D 0%, #ED00FF 48.4%, #00E1FF 100%); ',
