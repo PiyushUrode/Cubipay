@@ -24,18 +24,18 @@ function Presale () {
                             </div>
                         </div>
                         {/* payment options */}
-                        <div className=" flex flex-col  gap-2">
+                        <div className=" flex flex-col overflow-hidden  gap-2">
                             <div className="flex flex-col"> 
                             <p className="font-bold mt-2 mb-2 text-xl md:text-2xl text-white font-quantico ">You can buy with</p>
-                            <div className="flex justify-center space-x-4 mb-6">
-                            <button  className="relative px-20 py-2 text-white font-quantico  rounded-xl md:rounded-xl bg-custom-gradient animate-rotate-gradient border-2 border-transparent">
+                            <div className="flex justify-center gap-2 mb-6 ">
+                            <button  className="relative px-16 py-2 text-white font-quantico  rounded-xl md:rounded-xl bg-custom-gradient animate-rotate-gradient border-2 border-transparent">
                                 <span className="absolute inset-0  bg-custom-gradient p-px rounded-xl md:rounded-xl flex items-center justify-center">
                                 <span className="absolute inset-0 bg-black  flex items-center justify-center rounded-xl md:rounded-xl text-xl md:text-2xl"> 
                                 USDT
                                  </span>
                                   </span> 
                                 </button>
-                                <button className="bg-[#1d1d1d] text-white py-2 px-20 border border-[#ffffff1f] rounded-lg flex items-center space-x-2">
+                                <button className="bg-[#1d1d1d] text-white py-2 px-16 border border-[#ffffff1f] rounded-lg flex items-center space-x-2">
                                     {/* <img src={bnb} alt="BNB" className="h-5 w-5" /> */}
                                     <span className="font-medium">BNB</span>
                                 </button>
@@ -58,7 +58,7 @@ function Presale () {
                             {/* buttons */}
                             <div className="flex flex-col gap-3 sm:flex-row  mb-2 bg-[#1d1d1d] p-3 mx-2 rounded-lg justify-around gap-2 ">
                             <button className=" px-5 py-3 rounded-md bg-custom-gradient font-quantico text-black font-bold"> Connect Wallet </button>
-                            <button  className="relative px-20 py-5 text-white font-quantico  rounded-xl md:rounded-full bg-custom-gradient animate-rotate-gradient border-2 border-transparent">
+                            <button  className="relative px-16 py-6 text-white font-quantico  rounded-xl md:rounded-full bg-custom-gradient animate-rotate-gradient border-2 border-transparent">
                                 <span className="absolute inset-0  bg-custom-gradient p-px rounded-xl md:rounded-full flex items-center justify-center">
                                 <span className="absolute inset-0 bg-black  flex items-center justify-center rounded-xl md:rounded-full"> 
                                 Buy Now
