@@ -1,4 +1,4 @@
-import about1 from "../assets/Image/about2.svg";
+import about1 from "../assets/Image/about4.png";
 import "../index.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -39,7 +39,7 @@ const S2About = () => {
                   data-aos-delay="300" // Delay for the h1
                   data-aos-duration="1500"
                   id="filler-right"
-                  className="w-full md:w-[50%] flex flex-col justify-center gap-10 text-center md:text-left"
+                  className="w-full md:w-[50%]  flex flex-col justify-center gap-10 text-center md:text-left"
                 >
                   <h1 className="text-3xl md:text-3xl font-thin text-gray-200">
                     ABOUT
@@ -79,7 +79,9 @@ const S2About = () => {
                   <img
                     loading="lazy"
                     src={about1}
+                    
                     alt="About Image"
+                   
                     className="transition-all duration-1000 transform hover:scale-110"
                   />
                 </div>

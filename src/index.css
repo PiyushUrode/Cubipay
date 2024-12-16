@@ -93,6 +93,15 @@ footer {
 }
 
 
+.header-background2 {
+  background-image: url('./assets/Image/homepagebg.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: 50%;
+  background-repeat: no-repeat;
+  /* background-position: 50px; */
+ 
+}
+
+
 .token-background1 {
   background-image: url('./assets/Image/Ellipse1.png'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
@@ -230,6 +239,8 @@ footer {
   background-position: center;
 
 }
+
+
 
 
 

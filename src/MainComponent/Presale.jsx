@@ -2,9 +2,9 @@
 function Presale () {
     return(
         <>
-        <div className="">
+        <div className="header-background2">
             <div className="m-5 lg:m-20">
-                <div className="flex justify-center ">
+                <div className="flex justify-center  ">
                     <div className="w-full py-2 sm:w-[60%] md:w-[50%] lg:w-[30%] border border-[#feab1dbf] rounded-lg shadow-md shadow-white/50 text-center">
                         <div className="bg-[#0F0F0F] rounded-lg p-2 lg:py-4  lg:px-6 w-full flex flex-col gap-2 ">
                             <div className="text-3xl mb-2 font-semibold  font-quantico leading-loose">CUBIPAY TOKEN</div>
