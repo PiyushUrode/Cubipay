@@ -39,7 +39,8 @@ export default {
         'custom-gradient2': 'linear-gradient(90deg, #FEAB1D 0%, #ED00FF 48.4%, #00E1FF 100%); ',
         'custom-gradientpresale': 'linear-gradient(90deg, rgba(254, 171, 29, 0.5) 0%, rgba(237, 0, 255, 0.5) 50%, rgba(0, 225, 255, 0.5) 100%)',
         'custom-gradient-token ': 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 43%, rgba(0,0,0,1) 100%);',
-        'custom-gradient-pre ': 'linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);',
+       
+ 
 
         
 

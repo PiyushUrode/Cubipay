@@ -94,8 +94,8 @@ footer {
 
 
 .header-background2 {
-  background-image: url('./assets/Image/homepagebg.png'); /* Webpack/Vite resolves this path automatically */
-  background-size: 50%;
+  background-image: url('./assets/Image/bg2.jpg'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
   background-repeat: no-repeat;
   /* background-position: 50px; */
  
@@ -173,16 +173,17 @@ footer {
 
 
 .ecobgimg4 {
-  background-image: url('./assets/Image/eco4.png'); /* Webpack/Vite resolves this path automatically */
-  background-size: auto;
+  background-image: url('./assets/move2earn/move1.jpg'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+
   background-repeat: no-repeat;
   background-position: center;
 
 }
 
 .ecobgimg4b {
-  background-image: url('./assets/Image/eco4b.png'); /* Webpack/Vite resolves this path automatically */
-  background-size: auto;
+  background-image: url('./assets/move2earn/move2.jpg'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 

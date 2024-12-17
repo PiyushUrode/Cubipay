@@ -1,4 +1,4 @@
-import about1 from "../assets/Image/about4.png";
+import about1 from "../assets/Image/about4.webp";
 import "../index.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -74,7 +74,7 @@ const S2About = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                   id="filler-left"
-                  className="z-10 w-full md:w-[40%] flex justify-center md:justify-center"
+                  className="z-10 w-full md:w-[40%] items-center flex justify-center md:justify-center align-middle "
                 >
                   <img
                     loading="lazy"
@@ -82,7 +82,7 @@ const S2About = () => {
                     
                     alt="About Image"
                    
-                    className="transition-all duration-1000 transform hover:scale-110"
+                    className="transition-all duration-1000 transform hover:scale-110 "
                   />
                 </div>
               </div>
