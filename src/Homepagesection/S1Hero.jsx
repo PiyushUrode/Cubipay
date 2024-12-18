@@ -82,7 +82,7 @@ const S1Hero = () => {
                   >
                     <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
                       <span className="absolute inset-0 bg-black rounded-full flex items-center justify-center">
-                      <a  href="https://cubipay-token.gitbook.io/cubipay-token">Light Paper</a>
+                      <a  href="https://cubipay-token.gitbook.io/cubipay-token">Lite Paper</a>
                       
                       </span>
                     </span>

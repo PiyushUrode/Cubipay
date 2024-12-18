@@ -83,7 +83,7 @@ const Footer = () => {
         <a href="#about">About Us</a>
     </li>
     <li className="tablet:text-center">
-        <a href="#usecase">Usecase</a>
+        <a href="#usecase">Ecosystem</a>
     </li>
 
     <li className="tablet:text-center">
