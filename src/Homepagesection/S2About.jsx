@@ -31,7 +31,7 @@ const S2About = () => {
             >
               <div
                 id="filler-main"
-                className="flex items-center z-10 w-full gap-10 md:gap-5 flex flex-col md:flex-row-reverse"
+                className="flex items-center  w-full gap-10 md:gap-5 flex flex-col md:flex-row-reverse"
               >
                 {/* Left Content */}
                 <div
@@ -74,7 +74,7 @@ const S2About = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                   id="filler-left"
-                  className="z-10 w-full md:w-[40%] items-center flex justify-center md:justify-center align-middle "
+                  className=" w-full md:w-[40%] items-center flex justify-center md:justify-center align-middle "
                 >
                   <img
                     loading="lazy"

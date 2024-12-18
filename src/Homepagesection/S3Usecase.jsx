@@ -25,14 +25,12 @@ data-aos-easing="linear"
 data-aos-duration="1000"
 
           className=" bg-text-custom-gradient  font-quantico  bg-clip-text text-transparent font-semibold mt-4 text-4xl sm:text-4xl md:text-5xl lg:text-6xl">
-            ECO SYSTEM
+            ECOSYSTEM
           </h2>
         </div>
       </div>
 
       <div className="flex flex-col sm:flex-row md:pt-10 px-10 sm:px-2   gap-10 items-center justify-center  ">
-
-        {/* eco 1 start */}
  
  <div className="eco1 flex flex-col gap-10 w-[100%] sm:w-[33%] overflow-hidden  ">
 
