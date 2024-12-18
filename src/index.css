@@ -122,7 +122,7 @@ footer {
 /* ecobgimg7 */
 
 .ecobgimg1 {
-  background-image: url('./assets/Image/eco1.png'); /* Webpack/Vite resolves this path automatically */
+  background-image: url('./assets/Image/eco1.jpg'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -131,7 +131,7 @@ footer {
 
 
 .ecobgimg1a {
-  background-image: url('./assets/Image/eco1a.png'); /* Webpack/Vite resolves this path automatically */
+  background-image: url('./assets/Image/eco1a.jpg'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -155,7 +155,7 @@ footer {
 }
 
 .ecobgimg3 {
-  background-image: url('./assets/Image/eco3.png'); /* Webpack/Vite resolves this path automatically */
+  background-image: url('./assets/Image/eco3.jpg'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -164,7 +164,7 @@ footer {
 
 
 .ecobgimg3a {
-  background-image: url('./assets/Image/eco3a.png'); /* Webpack/Vite resolves this path automatically */
+  background-image: url('./assets/Image/eco3a.jpg'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

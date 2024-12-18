@@ -142,7 +142,7 @@ const Navbar = () => {
             <li className="md:border-none border-b-[1px] border-gradient">
             <Link smooth to="/#usecase" onClick={closeMenu}>
                 <div className="font-normal block py-2 px-3  text-white font-semibold rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0 hover:text-orange-600 font-outfit">
-                  Usecase
+                  Ecosystem
                 </div>
               </Link>
             </li>

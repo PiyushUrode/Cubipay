@@ -57,7 +57,7 @@ const S1Hero = () => {
                   with secure transactions, innovative features, and limitless
                   possibilities.
                 </p>
-                <div className="flex flex-row gap-5 md:gap-10 justify-center md:justify-start">
+                <div className="flex sm:flex-row flex-col  gap-5 md:gap-10 justify-center md:justify-start">
                   {/* WhitePaper Button */}
                   <div
                     data-aos="zoom-in"
@@ -68,6 +68,21 @@ const S1Hero = () => {
                     <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
                       <span className="absolute inset-0 bg-black rounded-full flex items-center justify-center">
                       <a  href="https://cubipay-token.gitbook.io/cubipay-token">White Paper</a>
+                      
+                      </span>
+                    </span>
+                  </div>
+                     {/* lighpaper */}
+
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-delay="600"
+                    className="relative px-20 py-5 text-white font-quantico rounded-full bg-custom-gradient animate-rotate-gradient border-2 border-transparent"
+                    
+                  >
+                    <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
+                      <span className="absolute inset-0 bg-black rounded-full flex items-center justify-center">
+                      <a  href="https://cubipay-token.gitbook.io/cubipay-token">Light Paper</a>
                       
                       </span>
                     </span>

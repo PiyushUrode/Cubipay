@@ -4,6 +4,7 @@ import Str1 from '../assets/Image/Strategic1.png';
 import Str2 from '../assets/Image/str2.png';
 import Str3 from '../assets/Image/str3.png';
 import Str4 from '../assets/Image/str4.svg';
+import Str5 from '../assets/Image/str5.png';
 import Button from '../MainComponent/Button';
 import Token1 from '../assets/Image/Tokenimg.png';
 import img1 from "../assets/Newfolder/token1.webp"
@@ -38,6 +39,12 @@ const S4Tokenomics = () => {
             alt="Strategic Partner 4"
             className="w-28 sm:w-36 md:w-44 lg:w-48 h-auto"
           />
+ <img
+            src={Str5}
+            alt="Strategic Partner 4"
+            className="w-28 sm:w-36 md:w-44 lg:w-48 h-auto"
+          />
+
         </div>
         {/* <div className="bg-[#090909] blur-md absolute -bottom-1 left-0 w-full h-10"> </div> */}
       </div>

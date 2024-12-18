@@ -3,7 +3,7 @@ import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS styles
 
 const Presale = () => {
-  const contractAddress = "IJGFRU783JHRWNF9E4T4ER3";
+  const contractAddress = "0x49c1abcae7dd5bd6c685c64253252a17e9e93e6f";
   const [copyStatus, setCopyStatus] = useState('');
 
   // Initialize AOS when the component mounts

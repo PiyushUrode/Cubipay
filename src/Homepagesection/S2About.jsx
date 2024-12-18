@@ -48,7 +48,7 @@ const S2About = () => {
                     data-aos="fade-left" // Fade-in effect for the h2
                     data-aos-delay="1000" // Delay for h2 to come after h1
                     data-aos-duration="1000"
-                    className="text-4xl md:text-4xl lg:text-5xl font-quantico bg-custom-gradient bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight"
+                    className="text-3xl md:text-4xl lg:text-5xl font-quantico bg-custom-gradient bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight"
                   >
                     Empowering a Decentralized Tomorrow with CUBIPAY
                   </h2>
