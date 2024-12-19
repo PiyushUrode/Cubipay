@@ -67,7 +67,12 @@ const S1Hero = () => {
                   >
                     <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
                       <span className="absolute inset-0 bg-black rounded-full flex items-center justify-center">
-                      <a  href="https://cubipay-token.gitbook.io/cubipay-token">White Paper</a>
+                      <a  href="https://cubipay-token.gitbook.io/cubipay-token"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                                  className="text-white font-semibold"
+                      
+                      >White Paper</a>
                       
                       </span>
                     </span>
@@ -82,7 +87,14 @@ const S1Hero = () => {
                   >
                     <span className="absolute inset-0 rounded-full bg-custom-gradient p-px flex items-center justify-center">
                       <span className="absolute inset-0 bg-black rounded-full flex items-center justify-center">
-                      <a  href="https://cubipay-token.gitbook.io/cubipay-token">Lite Paper</a>
+                      <a 
+      href="/public/LITEPAPER.pdf" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-white font-semibold"
+    >
+      Lite Paper
+    </a>
                       
                       </span>
                     </span>

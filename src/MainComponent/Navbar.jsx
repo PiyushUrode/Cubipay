@@ -85,8 +85,8 @@ const Navbar = () => {
           <Link smooth to="/presale" onClick={closeMenu}>
            
             
-              <span className="  font-istok font-bold   px-2 py-2 sm:py-3 sm:px-3 sm:text-sm text-white    rounded-xl bg-custom-gradient  ">
-                BUY Now
+              <span className="  font-istok font-bold   px-2 py-2 sm:py-3 sm:px-4 sm:text-sm text-white    rounded-xl bg-custom-gradient  ">
+                BUY NOW
               </span>
             </Link>
           </div>

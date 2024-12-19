@@ -1,0 +1,292 @@
+{
+    "stakingData": [
+      {
+        "srNo": 1,
+        "amount": "$452.32",
+        "duration": "6 months",
+        "returns": "8.5%",
+        "startDate": "2024-01-10",
+        "endDate": "2024-07-10",
+        "status": "Active"
+      },
+      
+        {
+          "srNo": 2,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 3,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 4,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 5,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 6,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 7,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 8,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 9,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 10,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 11,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 12,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 13,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 14,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 15,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        },
+        {
+          "srNo": 16,
+          "amount": "$123.45",
+          "duration": "3 months",
+          "returns": "5.2%",
+          "startDate": "2024-02-05",
+          "endDate": "2024-05-05",
+          "status": "Completed"
+        }
+    ],
+      
+      
+      
+    "referralData": [
+      {
+        "srNo": 1,
+        "name": "User 1",
+        "email": "user1@example.com",
+        "referrals": 3,
+        "reward": "$12.50",
+        "status": "Active"
+      },
+      {
+        "srNo": 2,
+        "name": "User 2",
+        "email": "user2@example.com",
+        "referrals": 5,
+        "reward": "$25.00",
+        "status": "Expired"
+      },
+      {
+        "srNo": 3,
+        "name": "User 3",
+        "email": "user3@example.com",
+        "referrals": 3,
+        "reward": "$15.00",
+        "status": "Active"
+      },
+      {
+        "srNo": 4,
+        "name": "User 4",
+        "email": "user4@example.com",
+        "referrals": 7,
+        "reward": "$35.00",
+        "status": "Expired"
+      },
+      {
+        "srNo": 5,
+        "name": "User 5",
+        "email": "user5@example.com",
+        "referrals": 2,
+        "reward": "$10.00",
+        "status": "Active"
+      },
+      {
+        "srNo": 6,
+        "name": "User 6",
+        "email": "user6@example.com",
+        "referrals": 8,
+        "reward": "$40.00",
+        "status": "Expired"
+      },
+      {
+        "srNo": 7,
+        "name": "User 7",
+        "email": "user7@example.com",
+        "referrals": 4,
+        "reward": "$20.00",
+        "status": "Active"
+      },
+      {
+        "srNo": 8,
+        "name": "User 8",
+        "email": "user8@example.com",
+        "referrals": 6,
+        "reward": "$30.00",
+        "status": "Expired"
+      },
+      {
+        "srNo": 9,
+        "name": "User 9",
+        "email": "user9@example.com",
+        "referrals": 5,
+        "reward": "$25.00",
+        "status": "Active"
+      },
+      {
+        "srNo": 10,
+        "name": "User 10",
+        "email": "user10@example.com",
+        "referrals": 9,
+        "reward": "$45.00",
+        "status": "Expired"
+      },
+      {
+        "srNo": 11,
+        "name": "User 11",
+        "email": "user11@example.com",
+        "referrals": 1,
+        "reward": "$5.00",
+        "status": "Active"
+      },
+      {
+        "srNo": 12,
+        "name": "User 12",
+        "email": "user12@example.com",
+        "referrals": 10,
+        "reward": "$50.00",
+        "status": "Expired"
+      },
+      {
+        "srNo": 13,
+        "name": "User 13",
+        "email": "user13@example.com",
+        "referrals": 3,
+        "reward": "$15.00",
+        "status": "Active"
+      },
+      {
+        "srNo": 14,
+        "name": "User 14",
+        "email": "user14@example.com",
+        "referrals": 7,
+        "reward": "$35.00",
+        "status": "Expired"
+      },
+      {
+        "srNo": 15,
+        "name": "User 15",
+        "email": "user15@example.com",
+        "referrals": 6,
+        "reward": "$30.00",
+        "status": "Active"
+      },
+      {
+        "srNo": 16,
+        "name": "User 16",
+        "email": "user16@example.com",
+        "referrals": 8,
+        "reward": "$40.00",
+        "status": "Expired"
+      },
+      {
+        "srNo": 17,
+        "name": "User 17",
+        "email": "user17@example.com",
+        "referrals": 5,
+        "reward": "$25.00",
+        "status": "Active"
+      }
+
+    ]
+  }
+  

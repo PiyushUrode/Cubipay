@@ -5,6 +5,7 @@ import Usecase from "../Homepagesection/S3Usecase.jsx"
 import Tokenomics from "../Homepagesection/S4Tokenomics.jsx"
 import Roadmap from "../Homepagesection/S5Roadmap.jsx"
 import Howtobuy from "../Homepagesection/S6Howtobuy.jsx"
+import Schedule from "../Homepagesection/S8Schedule.jsx"
 import ContractAddress from "../Homepagesection/S7Contractaddress.jsx"
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
 <Howtobuy/>
 <Roadmap/>
 <Tokenomics />
+<Schedule/>
 <ContractAddress/>
 </div>
 

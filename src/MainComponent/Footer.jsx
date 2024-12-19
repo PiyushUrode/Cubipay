@@ -108,6 +108,12 @@ const Footer = () => {
                                 <li className="tablet:text-center">
         <a  href="https://cubipay-token.gitbook.io/cubipay-token">White Paper</a>
     </li>
+
+
+    <li className="tablet:text-center">
+        <a  href="/public/LITEPAPER.pdf">Lite Paper</a>
+    </li>
+
     <li className=" tablet:text-center">
         <a href="#token">Tokenomics</a>
     </li>

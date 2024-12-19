@@ -34,10 +34,35 @@ data-aos-duration="1000"
  
  <div className="eco1 flex flex-col gap-10 w-[100%] sm:w-[33%] overflow-hidden  ">
 
+{/* move2earn */}
+ <div id="card" className="rounded-2xl  relative h-60 w-full">
+  {/* <div id="card-inner" className="">
+    <div id="front" className="ecoa ecobgimg3a w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10"> AI Integration</h1>
+    </div>
+    <div id="Back" className="ecoa ecobgimg3 w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
+      <p class="text-xl line-clamp-3  text-white text-left w-full p-10"> CIP powers secure, decentralized data sharing for AI platforms. Users earn tokens for contributing data, while developers access high-quality datasets, accelerating breakthroughs in healthcare, finance, and more.  </p>
+    </div>
+  </div> */}
+
+<div id="card-inner" className="">
+    <div id="front" className="ecoa ecobgimg4 w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10">Move 2 Earn </h1>
+    </div>
+    <div id="Back" className="ecoa ecobgimg4b w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
+      <p class="text-xl  line-clamp-3 text-white text-left w-full p-10"> The Move to Earn concept leverages CIP to reward users for physical activities. Through a fitness app integrated with blockchain technology, users can earn tokens by achieving fitness goals, such as steps walked or calories burned.  </p>
+    </div>
+  </div>
+</div>
+
+
+
+  {/* online gaming */}
+
 <div id="card" className="rounded-2xl  relative h-60 w-full">
   <div id="card-inner" className="">
     <div id="front" className="ecoa ecobgimg1a  w-full flex item-center   rounded-2xl justify-center bg-cover bg-center">
-      <h1 class="text-xl  md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10">Online Gaming</h1>
+      <h1 class="text-xl  md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10"> Online Gaming</h1>
     </div>
     <div id="Back" className="ecoa ecobgimg1  w-full flex item-center   rounded-2xl justify-center bg-cover bg-center">
       
@@ -53,7 +78,7 @@ data-aos-duration="1000"
 
 
 
-
+{/* real worl assests */}
 
 <div id="card" className="rounded-2xl  relative h-60 w-full">
   <div id="card-inner" className="">
@@ -67,18 +92,9 @@ data-aos-duration="1000"
 </div>
 
 
+{/* ai Integration */}
 
 
-<div id="card" className="rounded-2xl  relative h-60 w-full">
-  <div id="card-inner" className="">
-    <div id="front" className="ecoa ecobgimg3a w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
-      <h1 class="text-xl md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10"> AI Integration</h1>
-    </div>
-    <div id="Back" className="ecoa ecobgimg3 w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
-      <p class="text-xl line-clamp-3  text-white text-left w-full p-10"> CIP powers secure, decentralized data sharing for AI platforms. Users earn tokens for contributing data, while developers access high-quality datasets, accelerating breakthroughs in healthcare, finance, and more.  </p>
-    </div>
-  </div>
-</div>
 
 
 
@@ -86,15 +102,15 @@ data-aos-duration="1000"
 
 
         {/* eco 2 start */}
-
+{/* move2earn */}
 <div  className="eco2 flex flex-col gap-10 h-[500px] sm:h-[50rem]  w-[100%] sm:w-[33%]">
 <div id="card" className="rounded-2xl  relative h-[500px] sm:h-full w-full">
   <div id="card-inner" className="">
     <div id="front" className="ecoa ecobgimg4 w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
-      <h1 class="text-xl md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10">Move 2 Earn </h1>
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10">NFT MARKETPLACE </h1>
     </div>
     <div id="Back" className="ecoa ecobgimg4b w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
-      <p class="text-xl  line-clamp-3 text-white text-left w-full p-10"> The Move to Earn concept leverages CIP to reward users for physical activities. Through a fitness app integrated with blockchain technology, users can earn tokens by achieving fitness goals, such as steps walked or calories burned.  </p>
+      <p class="text-xl  line-clamp-3 text-white text-left w-full p-10"> CIP drives a decentralized NFT marketplace where creators mint, sell, and trade digital art and collectibles. With low-cost transactions and robust tools, CIP fosters a dynamic creator economy and community engagement.  </p>
     </div>
   </div>
 </div>
@@ -104,13 +120,24 @@ data-aos-duration="1000"
         {/* eco 3 start */}
         <div className="eco1 flex flex-col gap-10 w-[100%] sm:w-[33%]  ">
 
-        <div id="card" className="rounded-2xl  relative h-60 w-full">
+        {/* <div id="card" className="rounded-2xl  relative h-60 w-full">
   <div id="card-inner" className="">
     <div id="front" className="ecoa ecobgimg5a w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
       <h1 class="text-xl md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10">NFT Marketplace</h1>
     </div>
     <div id="Back" className="ecoa ecobgimg5 w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
       <p class="text-xl line-clamp-3  text-white text-left w-full p-10">CIP drives a decentralized NFT marketplace where creators mint, sell, and trade digital art and collectibles. With low-cost transactions and robust tools, CIP fosters a dynamic creator economy and community engagement.</p>
+    </div>
+  </div>
+</div> */}
+
+<div id="card" className="rounded-2xl  relative h-60 w-full">
+  <div id="card-inner" className="">
+    <div id="front" className="ecoa ecobgimg3a w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10"> AI Integration</h1>
+    </div>
+    <div id="Back" className="ecoa ecobgimg3 w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
+      <p class="text-xl line-clamp-3  text-white text-left w-full p-10"> CIP powers secure, decentralized data sharing for AI platforms. Users earn tokens for contributing data, while developers access high-quality datasets, accelerating breakthroughs in healthcare, finance, and more.  </p>
     </div>
   </div>
 </div>
