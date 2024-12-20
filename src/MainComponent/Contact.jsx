@@ -67,7 +67,7 @@ const MyForm = ({ formData, handleChange, handleSubmit }) => {
 
       <button
 
-className="relative px-28 py-5 text-white font-quantico rounded-full bg-custom-gradient animate-rotate-gradient border-2 border-transparent"
+className="relative px-5 sm:px-28 py-5 text-white font-quantico rounded-full bg-custom-gradient animate-rotate-gradient border-2 border-transparent"
 
 >
     
@@ -121,8 +121,8 @@ const Contact = ({ onClose }) => {
   };
 
   return (
-<div className="flex flex-col lg:flex-row bg-black min-h-screen overflow-x-hidden" id="Contact" data-aos="fade-up">
-  <div className="lg:w-1/2 p-8 flex justify-end items-center hidden md:block ">
+<div className="flex flex-col lg:flex-row bg-black min-h-screen items-center justify-center overflow-x-hidden" id="Contact" data-aos="fade-up">
+  <div className="lg:w-1/2   sm:p-8 flex justify-center items-center hidden lg:block ">
     <img
       src={Robot}
       alt=""
