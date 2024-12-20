@@ -4,7 +4,7 @@ const S12pinksale = () => {
   return (
     <div className="w-full items-center flex flex-col overflow-x-hidden px-4 sm:px-6 md:px-8">
       <h1 className="bg-text-custom-gradient font-quantico bg-clip-text uppercase text-transparent font-semibold mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-center">
-        PINKSALE  Integration
+        PINKSALE  INTEGRATION
       </h1>
       <div className="text-white bg-transparent flex flex-col w-full justify-center gap-10 py-10 sm:py-16 md:py-20">
         {/* Card 1 */}
@@ -13,13 +13,13 @@ const S12pinksale = () => {
             CubiPay employs PinkSale for token distribution, ensuring:
           </h1>
 
-          <h2 className="font-istok text-lg sm:text-xl md:text-2xl text-left leading-relaxed sm:leading-normal">
+          <h2 className="font-istok text-lg sm:text-xl md:text-2xl text-left sm:text-center   leading-relaxed sm:leading-normal">
             Secure Locking & Vesting: Protecting investments.
           </h2>
-          <h2 className="font-istok text-lg sm:text-xl md:text-2xl text-left leading-relaxed sm:leading-normal">
+          <h2 className="font-istok text-lg sm:text-xl md:text-2xl text-left sm:text-center leading-relaxed sm:leading-normal">
             Transparent System Representation: Token sale details presented clearly.
           </h2>
-          <h2 className="font-istok text-lg sm:text-xl md:text-2xl text-left leading-relaxed sm:leading-normal">
+          <h2 className="font-istok text-lg sm:text-xl md:text-2xl text-left sm:text-center leading-relaxed sm:leading-normal">
             Gas Fee Optimization: Just 1% gas fees for efficiency.
           </h2>
         </div>

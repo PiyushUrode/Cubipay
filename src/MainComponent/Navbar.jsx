@@ -1,7 +1,7 @@
 import { HashLink as Link } from 'react-router-hash-link';
 import { useEffect, useState } from 'react';
 
-import logo from "../assets/logo/logo1.png";
+import logo from "../assets/logo/logo1.webp";
 // import Popup from './Popupbuydog';
 
 const Navbar = () => {

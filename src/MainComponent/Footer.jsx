@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Contact from "../MainComponent/Contact.jsx";
 import "../index.css";
-import logo from "../assets/logo/logo1.png";
-import footericon1 from "../assets/Image/footericon1.png";
-import footericon2 from "../assets/Image/footericon2.png";
-import footericon3 from "../assets/Image/footericon3.png";
-import footericon4 from "../assets/Image/footericon4.png";
-import footericon5 from "../assets/Image/footericon6.png";
+import logo from "../assets/logo/logo1.webp";
+import footericon1 from "../assets/footer/footericon1.webp";
+import footericon2 from "../assets/footer/footericon2.webp";
+import footericon3 from "../assets/footer/footericon3.webp";
+import footericon4 from "../assets/footer/footericon4.webp";
+import footericon5 from "../assets/footer/footericon6.webp";
 
 import { IoIosArrowDropup } from "react-icons/io";
 

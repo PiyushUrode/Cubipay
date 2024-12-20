@@ -1,4 +1,4 @@
-import about1 from "../assets/Newfolder/locking.png";
+import about1 from "../assets/Newfolder/locking.webp";
 import "../index.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';

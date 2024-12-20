@@ -1,5 +1,5 @@
 import React from 'react';
-import about1 from "../assets/Newfolder/table1.png";
+import table1 from "../assets/Newfolder/table1.webp";
 
 const S11Allocation = () => {
   const data = [
@@ -27,7 +27,7 @@ const S11Allocation = () => {
         >
           <img
             loading="lazy"
-            src={about1}
+            src={table1}
             alt="About Image"
             className="transition-all duration-1000 transform hover:scale-110 max-h-[500px] w-full object-contain"
           />

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate  } from "react-router-dom";
-import hero1 from "../assets/Image/homepage1.png";
+import hero1 from "../assets/Image/homepage1.webp";
 import "../index.css";
 import AOS from "aos";
 import "aos/dist/aos.css";

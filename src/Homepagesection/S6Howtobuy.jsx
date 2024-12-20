@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import "../index.css";
 
-import howtobuy from "../assets/Image/howtobuyimg.png";
+import howtobuy from "../assets/Image/howtobuyimg.webp";
 import howicon1 from "../assets/Image/howicon1.png";
 import howicon2 from "../assets/Image/howicon2.png";
 import howicon3 from "../assets/Image/howicon3.png";

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../index.css"
 import "aos/dist/aos.css";
-import Robot from "../assets/contact/contact2.png";
+import Robot from "../assets/contact/contact2.webp";
 
 const MyForm = ({ formData, handleChange, handleSubmit }) => {
   return (
