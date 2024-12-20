@@ -7,6 +7,7 @@ import ScrollToTop from './MainComponent/ScrollToTop';
 import Loader from './MainComponent/Loader';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
+import Contact from './MainComponent/Contact';
 
 const Homepage = lazy(() => import('./MainComponent/Homepage'));
 const Presale = lazy(() => import('./MainComponent/Presale'));
@@ -30,6 +31,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/presale" element={<Presale />} />
+            <Route path="/Contact" element={<Contact />} />
           </Routes>
         </Suspense>
       </div>

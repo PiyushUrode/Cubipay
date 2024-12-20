@@ -173,8 +173,9 @@ footer {
 
 
 .ecobgimg4 {
-  background-image: url('./assets/move2earn/move1.jpg'); /* Webpack/Vite resolves this path automatically */
+  background-image: url('./assets/move2earn/move1.png'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
+  
 
   background-repeat: no-repeat;
   background-position: center;
@@ -182,7 +183,7 @@ footer {
 }
 
 .ecobgimg4b {
-  background-image: url('./assets/move2earn/move2.jpg'); /* Webpack/Vite resolves this path automatically */
+  background-image: url('./assets/move2earn/move1a.png'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -191,7 +192,7 @@ footer {
 
 
 .ecobgimg5 {
-  background-image: url('./assets/Image/eco5.png'); /* Webpack/Vite resolves this path automatically */
+  background-image: url('./assets/contact/contact1.png'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -200,7 +201,7 @@ footer {
 
 
 .ecobgimg5a {
-  background-image: url('./assets/Image/eco5a.png'); /* Webpack/Vite resolves this path automatically */
+  background-image: url('./assets/contact/contact1a.png'); /* Webpack/Vite resolves this path automatically */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -397,3 +398,26 @@ footer {
 
 /* animation startegic end */
 
+/* topggle popup */
+
+/* Add this CSS to handle the popup overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #090909;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

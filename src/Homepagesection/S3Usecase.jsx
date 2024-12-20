@@ -106,10 +106,10 @@ data-aos-duration="1000"
 <div  className="eco2 flex flex-col gap-10 h-[500px] sm:h-[50rem]  w-[100%] sm:w-[33%]">
 <div id="card" className="rounded-2xl  relative h-[500px] sm:h-full w-full">
   <div id="card-inner" className="">
-    <div id="front" className="ecoa ecobgimg4 w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
-      <h1 class="text-xl md:text-2xl lg:text-3xl font-quantico text-white text-left w-full p-10">NFT MARKETPLACE </h1>
+    <div id="front" className="ecoa ecobgimg5 w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-quantico text-white font-bold text-left w-full p-10">NFT MARKETPLACE </h1>
     </div>
-    <div id="Back" className="ecoa ecobgimg4b w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
+    <div id="Back" className="ecoa ecobgimg5a w-full flex item-center rounded-2xl justify-center bg-cover bg-center">
       <p class="text-xl  line-clamp-3 text-white text-left w-full p-10"> CIP drives a decentralized NFT marketplace where creators mint, sell, and trade digital art and collectibles. With low-cost transactions and robust tools, CIP fosters a dynamic creator economy and community engagement.  </p>
     </div>
   </div>
