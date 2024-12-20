@@ -7,8 +7,10 @@ import Roadmap from "../Homepagesection/S5Roadmap.jsx"
 import Howtobuy from "../Homepagesection/S6Howtobuy.jsx"
 import Schedule from "../Homepagesection/S8Schedule.jsx"
 import ContractAddress from "../Homepagesection/S7Contractaddress.jsx"
-// import Token2 from '../Homepagesection/S9Token2.jsx'
-// import Referralsystem from '../Homepagesection/S10Referralsystem.jsx'
+import Token2 from '../Homepagesection/S9Token2.jsx'
+import Referralsystem from '../Homepagesection/S10Referralsystem.jsx'
+import Allocation from '../Homepagesection/S11Allocation.jsx'
+import Pinksale from '../Homepagesection/S12pinksale.jsx'
 const Homepage = () => {
   return (
 <>
@@ -19,8 +21,10 @@ const Homepage = () => {
 <Howtobuy/>
 <Roadmap/>
 <Tokenomics />
-{/* <Token2/> */}
-{/* <Referralsystem/> */}
+<Token2/>
+<Referralsystem/>
+<Allocation/>
+<Pinksale/>
 
 <Schedule/>
 <ContractAddress/>

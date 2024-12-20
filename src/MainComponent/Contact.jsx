@@ -88,7 +88,7 @@ className="relative px-5 sm:px-28 py-5 text-white font-quantico rounded-full bg-
         </svg>
     <a className="text-white font-semibold"
 
-    >Comming soon </a>
+    >Submit </a>
     
 
   </span>
@@ -140,7 +140,7 @@ const Contact = ({ onClose }) => {
       </h1>
       <div className="w-1/2 h-1 bg-gradient-to-r from-gray-400 via-white to-gray-400 mx-auto my-4"></div>
       <p className="text-lg text-gray-300">
-        Looking to add custom technologies to your business! Connect us for a free consultation.
+      Reach out to us for a free consultation and discover how CUBIPAY (CIP) can drive innovation in your digital transactions.
       </p>
     </div>
 

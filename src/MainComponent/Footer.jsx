@@ -44,9 +44,9 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-[#090909] z-10 rounded-t-3xl">
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 z-10 gap-10 flex flex-col">
+        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 z-10 gap-12 flex flex-col">
           <div className="md:flex md:justify-between tablet:justify-center z-10">
-            <div className="flex flex-col gap-5 mb-6 max-w-[100%] sm:max-w-[35%] tablet:max-w-[100%] items-center tablet:items-center md:mb-0">
+            <div className="flex flex-col gap-8 sm:gap-5 mb-6 max-w-[100%] sm:max-w-[35%] tablet:max-w-[100%] items-center tablet:items-center md:mb-0">
               <Link className="flex items-center" smooth to="/">
                 <img src={logo} className="h-[80px] me-3" alt="FlowBite Logo" />
               </Link>
@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-[5vmax] w-full justify-center sm:justify-start md:justify-end tablet:flex-wrap z-10 ">
               <div className="flex flex-col tablet:items-center">
-                <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">
+                <h2 className="  mb-6 font-istok text-2xl  bg-custom-gradient2 bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight">
                   Important Link
                 </h2>
                 <ul className="text-gray-400 font-medium">
@@ -109,7 +109,7 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col tablet:items-center">
-                <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">
+                <h2 className=" mb-6 font-istok text-2xl  bg-custom-gradient2 bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight">
                   About us
                 </h2>
                 <ul className="text-gray-400 font-medium flex flex-col gap-4">
@@ -128,15 +128,15 @@ const Footer = () => {
                   </li>
 
                   <li>
-                    <button onClick={toggleContactPopup} className="text-white">
-                      Contact
+                    <button onClick={toggleContactPopup} className="tablet:text-center">
+                      Contact Us
                     </button>
                   </li>
                 </ul>
               </div>
 
               <div className="flex flex-col tablet:items-center">
-                <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">
+                <h2 className="  mb-6 font-istok text-2xl  bg-custom-gradient2 bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight">
                   Privacy
                 </h2>
                 <ul className="text-gray-400 font-medium">

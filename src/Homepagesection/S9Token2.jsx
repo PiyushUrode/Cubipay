@@ -1,4 +1,4 @@
-import about1 from "../assets/Image/about4.webp";
+import about1 from "../assets/Newfolder/locking.png";
 import "../index.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -46,7 +46,7 @@ const S9Token2 = () => {
                     data-aos="fade-left" // Fade-in effect for the h2
                     data-aos-delay="1000" // Delay for h2 to come after h1
                     data-aos-duration="1000"
-                    className="text-3xl md:text-4xl lg:text-5xl font-quantico bg-custom-gradient bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight"
+                    className="text-3xl md:text-3xl lg:text-4xl font-quantico bg-custom-gradient bg-clip-text text-transparent font-bold uppercase leading-snug md:leading-tight"
                   >
                    CubiPay Tokenomics ensures stability, growth, and sustainability. Here is a breakdown:
                   </h2>
@@ -63,7 +63,7 @@ const S9Token2 = () => {
         data-aos="fade-left"
         data-aos-delay="1500"
         data-aos-duration="1000"
-        className="list-none md:list-disc text-md md:text-lg text-gray-300 leading-relaxed md:w-3/4 mx-auto md:mx-0 space-y-4"
+        className="list-none md:list-disc text-md md:text-lg text-white leading-relaxed md:w-3/4 mx-auto md:mx-0 space-y-4"
       >
         <li className="font-semibold text-xl md:text-2xl font-istok">
           Investor Allocation:

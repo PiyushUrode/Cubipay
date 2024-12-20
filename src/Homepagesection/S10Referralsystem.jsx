@@ -1,4 +1,4 @@
-import about1 from "../assets/Image/about4.webp";
+import about1 from "../assets/Newfolder/reward.png";
 import "../index.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -34,6 +34,28 @@ const S10Referralsystem = () => {
                 className="flex items-center  w-full gap-10 md:gap-5 flex flex-col md:flex-row-reverse"
               >
                 {/* Left Content */}
+              
+
+                {/* Right Content (Image) */}
+                <div
+                  data-aos="fade-zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
+                  id="filler-left"
+                  className=" w-full md:w-[40%] items-center flex justify-center md:justify-center align-middle "
+                >
+                  <img
+                    loading="lazy"
+                    src={about1}
+                    
+                    alt="About Image"
+                   
+                    className="transition-all duration-1000 transform hover:scale-110 "
+                  />
+                </div>
+
+
+
                 <div
                   data-aos="fade-left"
                   data-aos-delay="300" // Delay for the h1
@@ -86,24 +108,6 @@ const S10Referralsystem = () => {
 
 
     </div>
-                </div>
-
-                {/* Right Content (Image) */}
-                <div
-                  data-aos="fade-zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="300"
-                  id="filler-left"
-                  className=" w-full md:w-[40%] items-center flex justify-center md:justify-center align-middle "
-                >
-                  <img
-                    loading="lazy"
-                    src={about1}
-                    
-                    alt="About Image"
-                   
-                    className="transition-all duration-1000 transform hover:scale-110 "
-                  />
                 </div>
               </div>
             </div>
